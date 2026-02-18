@@ -1322,7 +1322,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 132.08) (xy 101.6 132.08)
+			(xy 100.33 132.08) (xy 106.68 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1402,7 +1402,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 132.08) (xy 138.43 132.08)
+			(xy 133.35 132.08) (xy 138.43 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1562,6 +1562,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 132.08) (xy 119.38 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35280a3-2c56-4ee8-ada6-d4f4bc99330d")
+	)
+	(wire
+		(pts
 			(xy 138.43 140.97) (xy 160.02 140.97)
 		)
 		(stroke
@@ -1622,16 +1632,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 132.08) (xy 119.38 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2ec45c2-a2c0-425d-96d8-66ca4a2284b1")
-	)
-	(wire
-		(pts
 			(xy 118.11 160.02) (xy 118.11 170.18)
 		)
 		(stroke
@@ -1652,7 +1652,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 132.08) (xy 121.92 132.08)
+			(xy 119.38 132.08) (xy 125.73 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2579,7 +2579,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 105.41 132.08 90)
+		(at 110.49 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2588,15 +2588,15 @@
 		(fields_autoplaced yes)
 		(uuid "832d8d18-9793-431f-96f2-7a7993818867")
 		(property "Reference" "R1"
-			(at 105.41 125.73 90)
+			(at 110.49 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 105.41 128.27 90)
+		(property "Value" "26.7k"
+			(at 110.49 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2604,7 +2604,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 105.664 131.064 90)
+			(at 110.744 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +2613,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 132.08 0)
+			(at 110.49 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +2622,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 105.41 132.08 0)
+			(at 110.49 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,148 +2916,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 113.03 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0727352-8b0c-40c6-8277-e637f494ba82")
-		(property "Reference" "R2"
-			(at 113.03 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22k"
-			(at 113.03 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 113.284 131.064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 113.03 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e2da9407-ba68-4c21-ba8b-fd8e7a49c0c2")
-		)
-		(pin "1"
-			(uuid "dfe758fb-e3d3-468e-b8f8-c77e8885436a")
-		)
-		(instances
-			(project "audio_and_microphone"
-				(path "/6041ce46-c287-4741-ac80-b7b1d4df1348"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 125.73 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2f424b1-d4e0-463e-ad1c-e132417050a6")
-		(property "Reference" "R3"
-			(at 125.73 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 125.73 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 125.984 131.064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 125.73 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4cb3ac05-0792-46a5-937c-bf0329e11d97")
-		)
-		(pin "1"
-			(uuid "7f059c31-6069-447c-9ca5-d061139ecfa6")
-		)
-		(instances
-			(project "audio_and_microphone"
-				(path "/6041ce46-c287-4741-ac80-b7b1d4df1348"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:VPWL")
 		(at 38.1 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b668b730-58c7-45e6-944f-64c33bd0b68a")
@@ -3425,23 +3289,23 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 133.35 132.08 90)
+		(at 129.54 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e80154b3-35c0-4208-a463-b098518f2602")
-		(property "Reference" "R4"
-			(at 133.35 125.73 90)
+		(property "Reference" "R2"
+			(at 129.54 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22k"
-			(at 133.35 128.27 90)
+		(property "Value" "26.7k"
+			(at 129.54 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3313,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 133.604 131.064 90)
+			(at 129.794 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +3322,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 132.08 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,7 +3331,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 133.35 132.08 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,7 +3348,7 @@
 		(instances
 			(project "audio_and_microphone"
 				(path "/6041ce46-c287-4741-ac80-b7b1d4df1348"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
