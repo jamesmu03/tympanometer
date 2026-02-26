@@ -1,4 +1,4 @@
-26634610375616589
+26638154447145339
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2803,6 +2803,13 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+C1608X5R1E105K080AC
+CAPC1608X90N
+
+
 0
 2
 2
@@ -93484,6 +93491,13 @@ Potentiometer vertical vishay
 0
 3
 3
+RC0603FR_072KL
+R0603
+
+
+0
+2
+2
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf

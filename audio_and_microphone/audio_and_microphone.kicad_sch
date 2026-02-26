@@ -4642,7 +4642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "C1608X5R1E105K080AC:CAPC1608X90N"
 			(at 119.38 169.2148 0)
 			(effects
 				(font
@@ -5014,7 +5014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "RC0603FR_072KL:R0603"
 			(at 129.286 106.934 90)
 			(effects
 				(font
@@ -5084,7 +5084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "C1608X5R1E105K080AC:CAPC1608X90N"
 			(at 54.3052 105.41 0)
 			(effects
 				(font
@@ -5152,7 +5152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "C1608X5R1E105K080AC:CAPC1608X90N"
 			(at 132.08 169.2148 0)
 			(effects
 				(font
@@ -5657,7 +5657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "C1608X5R1E105K080AC:CAPC1608X90N"
 			(at 212.09 107.95 0)
 			(effects
 				(font
@@ -5727,7 +5727,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "C1608X5R1E105K080AC:CAPC1608X90N"
 			(at 47.9552 105.41 0)
 			(effects
 				(font
@@ -5981,7 +5981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "RC0603FR_072KL:R0603"
 			(at 188.976 150.114 90)
 			(effects
 				(font
@@ -6271,7 +6271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "C1608X5R1E105K080AC:CAPC1608X90N"
 			(at 76.2 129.54 0)
 			(effects
 				(font
@@ -6339,7 +6339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "RC0603FR_072KL:R0603"
 			(at 114.554 141.224 90)
 			(effects
 				(font
@@ -6632,7 +6632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "C1608X5R1E105K080AC:CAPC1608X90N"
 			(at 124.1552 153.67 0)
 			(effects
 				(font
@@ -6700,7 +6700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "C1608X5R1E105K080AC:CAPC1608X90N"
 			(at 116.84 99.3648 0)
 			(effects
 				(font
@@ -6834,7 +6834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "RC0603FR_072KL:R0603"
 			(at 208.026 144.526 90)
 			(effects
 				(font
@@ -6987,7 +6987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "RC0603FR_072KL:R0603"
 			(at 114.554 78.994 90)
 			(effects
 				(font
@@ -7298,7 +7298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "RC0603FR_072KL:R0603"
 			(at 55.626 121.666 90)
 			(effects
 				(font
@@ -7565,7 +7565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "RC0603FR_072KL:R0603"
 			(at 67.056 124.206 90)
 			(effects
 				(font
@@ -7697,7 +7697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "RC0603FR_072KL:R0603"
 			(at 133.604 141.224 90)
 			(effects
 				(font
@@ -7832,7 +7832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "RC0603FR_072KL:R0603"
 			(at 122.936 176.784 90)
 			(effects
 				(font
@@ -8104,7 +8104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "C1608X5R1E105K080AC:CAPC1608X90N"
 			(at 131.7752 90.17 0)
 			(effects
 				(font
