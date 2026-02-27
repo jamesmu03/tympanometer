@@ -3583,13 +3583,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 119.38) (xy 146.05 119.38)
+			(xy 116.84 119.38) (xy 127 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e9d8e9b-2d6d-4719-bdfb-421a3f737c6e")
+		(uuid "30a35749-444e-401a-8d96-fd980baeb236")
 	)
 	(wire
 		(pts
@@ -3873,6 +3873,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 119.38) (xy 146.05 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a37445f9-f33e-4907-9629-67a834aed01a")
+	)
+	(wire
+		(pts
 			(xy 52.07 110.49) (xy 59.69 110.49)
 		)
 		(stroke
@@ -4040,16 +4050,6 @@
 			(type default)
 		)
 		(uuid "d2591373-189f-461d-9848-0adb5567449a")
-	)
-	(wire
-		(pts
-			(xy 124.46 119.38) (xy 127 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2ec45c2-a2c0-425d-96d8-66ca4a2284b1")
 	)
 	(wire
 		(pts
@@ -5873,7 +5873,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "26.7k"
 			(at 113.03 115.57 90)
 			(effects
 				(font
@@ -6260,74 +6260,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 120.65 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0727352-8b0c-40c6-8277-e637f494ba82")
-		(property "Reference" "R2"
-			(at 120.65 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22k"
-			(at 120.65 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 120.904 118.364 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 120.65 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e2da9407-ba68-4c21-ba8b-fd8e7a49c0c2")
-		)
-		(pin "1"
-			(uuid "dfe758fb-e3d3-468e-b8f8-c77e8885436a")
-		)
-		(instances
-			(project "audio_and_microphone"
-				(path "/6041ce46-c287-4741-ac80-b7b1d4df1348"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 50.8 91.44 0)
 		(unit 1)
@@ -6415,7 +6347,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "26.7k"
 			(at 133.35 115.57 90)
 			(effects
 				(font
@@ -7004,73 +6936,6 @@
 			(project "Tympanometer_audio_and_microphone"
 				(path "/6041ce46-c287-4741-ac80-b7b1d4df1348"
 					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 140.97 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e80154b3-35c0-4208-a463-b098518f2602")
-		(property "Reference" "R4"
-			(at 140.97 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22k"
-			(at 140.97 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 141.224 118.364 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 140.97 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b4369994-a5f3-4a01-bbe0-a49e5f669958")
-		)
-		(pin "1"
-			(uuid "a8ddc07c-12b9-4ced-ae6f-12901dbc7970")
-		)
-		(instances
-			(project "audio_and_microphone"
-				(path "/6041ce46-c287-4741-ac80-b7b1d4df1348"
-					(reference "R4")
 					(unit 1)
 				)
 			)

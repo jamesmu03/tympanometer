@@ -1,4 +1,4 @@
-26648045766359615
+26655133977347251
 ARDUINO_UNO_REV3
 ARDUINO_ARDUINO_UNO_REV3
 
@@ -2810,6 +2810,13 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+C0603C104K5RACTU
+CAPC1608X90
+<b>CAPACITOR</b>
+
 0
 2
 2
@@ -95752,6 +95759,27 @@ SPST SPDT DC TE0598-P2
 0
 7
 7
+Resistor1.60x0.80
+RC0603N_YAG
+
+RC0603FR-076K2L 
+0
+2
+2
+Resistor1.60x0.80
+RC0603N_YAG-L
+
+RC0603FR-076K2L 
+0
+2
+2
+Resistor1.60x0.80
+RC0603N_YAG-M
+
+RC0603FR-076K2L 
+0
+2
+2
 Resistor_SMD
 R_0201_0603Metric
 Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
