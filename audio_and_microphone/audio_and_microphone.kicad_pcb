@@ -660,7 +660,7 @@
 		(uuid "2033c485-5b0a-4cab-a574-dc443c0e2484")
 		(at 62.488 67.45 90)
 		(property "Reference" "R1"
-			(at -1.4605 -0.3175 90)
+			(at -1.3 0.037 90)
 			(layer "F.SilkS")
 			(uuid "493bc691-efa9-40f2-9586-6eb7b34ec8d9")
 			(effects
@@ -840,6 +840,7 @@
 		(property "Reference" "J5"
 			(at 0 -2.38 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7f4289fe-9976-4dbb-a75c-b5cf02a4932c")
 			(effects
 				(font
@@ -2020,6 +2021,7 @@
 		(property "Reference" "J7"
 			(at 0 -2.38 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "10aa98fb-a616-4c81-8592-5aeb1f805ee0")
 			(effects
 				(font
@@ -2337,6 +2339,7 @@
 		(property "Reference" "J8"
 			(at 0 -2.38 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bf21ed8b-78b7-4be7-bef4-94e9e5416459")
 			(effects
 				(font
@@ -3126,7 +3129,7 @@
 		(uuid "a8e4ae59-fc59-44cc-974c-a9255147c168")
 		(at 69 67.45 90)
 		(property "Reference" "R2"
-			(at -1.4605 -0.3175 90)
+			(at -1.35 0.525 90)
 			(layer "F.SilkS")
 			(uuid "f89dc509-9390-45c5-8afc-594f75149f2b")
 			(effects
@@ -4253,7 +4256,7 @@
 		(uuid "d5e8b93c-80a4-44bf-a1ac-891392eb4316")
 		(at 64.8095 45.78 90)
 		(property "Reference" "R3"
-			(at -1.4605 -0.3175 90)
+			(at -1.27 0.0905 90)
 			(layer "F.SilkS")
 			(uuid "60417f93-a0a3-40ce-a7da-fdff46e18cb3")
 			(effects
@@ -4666,6 +4669,7 @@
 		(property "Reference" "J6"
 			(at 0 -2.38 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "dfc3c162-39be-422b-bb30-14fd345d90f9")
 			(effects
 				(font
@@ -5426,6 +5430,32 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "72f9f61f-4749-4652-81ea-8781cc92ece3")
+	)
+	(gr_text "new notch"
+		(at 60.175 71.025 0)
+		(layer "F.Cu")
+		(uuid "6692f745-9c3f-41a7-b810-a6770d9f9cdf")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "old notch"
+		(at 60.8 49.275 0)
+		(layer "F.Cu")
+		(uuid "873ff287-abfe-4d7a-a2fe-e5e797dc7997")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(via
 		(at 67.625 58.95)
