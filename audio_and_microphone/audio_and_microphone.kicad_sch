@@ -5672,13 +5672,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 191.77 81.2799 0)
+		(property "Value" "+3.3V"
+			(at 189.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
