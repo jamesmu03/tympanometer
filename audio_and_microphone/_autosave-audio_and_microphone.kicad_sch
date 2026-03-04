@@ -2113,6 +2113,12 @@
 		(uuid "31987181-cabf-4c69-995c-0dfe4522a630")
 	)
 	(junction
+		(at 167.64 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3453fc9e-dfec-489a-a8c0-b4bdff35a91f")
+	)
+	(junction
 		(at 189.23 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2266,6 +2272,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 102.87) (xy 184.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ccc467-b822-476d-9520-77ef1bb48185")
+	)
+	(wire
+		(pts
 			(xy 184.15 107.95) (xy 177.8 107.95)
 		)
 		(stroke
@@ -2273,6 +2289,16 @@
 			(type default)
 		)
 		(uuid "11554802-2870-4e8f-bd2e-30782b974437")
+	)
+	(wire
+		(pts
+			(xy 184.15 97.79) (xy 167.64 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b6ddac-da2f-498a-bc2b-2a4a7f65de34")
 	)
 	(wire
 		(pts
@@ -2463,6 +2489,16 @@
 			(type default)
 		)
 		(uuid "52e81b84-653b-4816-90a9-6df96a01b79c")
+	)
+	(wire
+		(pts
+			(xy 167.64 102.87) (xy 168.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534571cb-c744-4f9c-9b89-172db2d5dba7")
 	)
 	(wire
 		(pts
@@ -2776,7 +2812,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 102.87) (xy 184.15 102.87)
+			(xy 165.1 102.87) (xy 167.64 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3043,6 +3079,16 @@
 			(type default)
 		)
 		(uuid "ecb2ca22-30ab-4a4f-a9b7-bc5559061318")
+	)
+	(wire
+		(pts
+			(xy 167.64 97.79) (xy 167.64 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed34b0a9-b5b0-49e4-9fbd-63377f190505")
 	)
 	(wire
 		(pts
@@ -5261,6 +5307,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 168.91 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6236dff-0d99-4acf-96ab-33d35c93c6fd")
+		(property "Reference" "#PWR013"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30c94c59-f522-4395-9004-dcf87912d701")
+		)
+		(instances
+			(project "audio_and_microphone"
+				(path "/6041ce46-c287-4741-ac80-b7b1d4df1348"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 38.1 110.49 0)
 		(unit 1)
@@ -5463,6 +5575,76 @@
 			(project "audio_and_microphone"
 				(path "/6041ce46-c287-4741-ac80-b7b1d4df1348"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 173.99 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f05cc92c-4a4c-41b3-886c-4f4b18df65a4")
+		(property "Reference" "J1"
+			(at 175.26 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 175.26 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 173.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 173.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8fc9473-43f0-407a-9d3d-87c536d60d5c")
+		)
+		(pin "2"
+			(uuid "bf92fefd-826f-4d7f-bcf9-193ab8927fcf")
+		)
+		(instances
+			(project "audio_and_microphone"
+				(path "/6041ce46-c287-4741-ac80-b7b1d4df1348"
+					(reference "J1")
 					(unit 1)
 				)
 			)
