@@ -1,4 +1,4 @@
-26653362532476537
+26660453815988695
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70559,6 +70559,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LM4875M
+SOIC127P599X175-8N
+
+
+0
+8
+8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -73492,6 +73499,27 @@ net tie
 0
 4
 4
+OP_AMP
+DBV5_TEX
+
+TLV313IDBVT 
+0
+5
+5
+OP_AMP
+DBV5_TEX-L
+
+TLV313IDBVT 
+0
+5
+5
+OP_AMP
+DBV5_TEX-M
+
+TLV313IDBVT 
+0
+5
+5
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
