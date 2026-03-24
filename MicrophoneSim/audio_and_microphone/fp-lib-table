@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ARDUINO_UNO_REV3")(type "KiCad")(uri "/Users/alishagupta2020/Downloads/ARDUINO_UNO_REV3")(options "")(descr ""))
+)
