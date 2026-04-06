@@ -1,0 +1,4521 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d00791f9-969e-4d41-982b-307eaf0aa120")
+	(paper "A3")
+	(title_block
+		(title "TITLE OF PROJECT")
+		(rev "1")
+	)
+	(lib_symbols
+		(symbol "Mechanical:root_0_PCB_fab_Mechanical.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "PCB, FR4, 0.062"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "root_0_PCB_fab_Mechanical.SchLib_1_0"
+				(rectangle
+					(start 0 -10.16)
+					(end -3.81 0)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type color)
+						(color 0 128 0 1)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "${FILENAME}"
+		(exclude_from_sim no)
+		(at 317.5 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02dac3b6-17d1-4feb-9915-9db802a2b57b")
+	)
+	(text "File:"
+		(exclude_from_sim no)
+		(at 311.15 291.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "081432de-ca31-4c16-9358-c2cb74062292")
+	)
+	(text "${##}"
+		(exclude_from_sim no)
+		(at 371.094 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a38155e-d3ce-43c6-b599-7dfd577dd015")
+	)
+	(text "Title:"
+		(exclude_from_sim no)
+		(at 310.388 276.4282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e37e11e-4ff0-41f0-8009-c75da3281c1a")
+	)
+	(text "${PROJECT_SCHEMATIC_NUMBER}"
+		(exclude_from_sim no)
+		(at 330.2 285.5722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "269e776a-cf56-4e73-86e3-fee53cc6f6fe")
+	)
+	(text "Size:"
+		(exclude_from_sim no)
+		(at 310.388 285.5722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f2c27d2-a86a-438c-9135-f2133ccac21a")
+	)
+	(text "Number:"
+		(exclude_from_sim no)
+		(at 320.548 285.5722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "302ed2c2-9729-4c24-bac5-f788d092724f")
+	)
+	(text "${PROJECT_REVISION}"
+		(exclude_from_sim no)
+		(at 368.3 285.5722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "9259d007-07bf-465a-8cb1-e5b5faf5b5d0")
+	)
+	(text "Revision:"
+		(exclude_from_sim no)
+		(at 358.14 285.5722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "944a3167-769a-41e6-807b-f4ba211e3be2")
+	)
+	(text "${#}"
+		(exclude_from_sim no)
+		(at 365.252 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a319a015-bbef-43e9-85f4-90b3b1d594cc")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 316.23 284.3022 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+		)
+		(uuid "aefaa9b2-b047-4604-a250-0fd2e2e25604")
+	)
+	(text "Date:"
+		(exclude_from_sim no)
+		(at 311.15 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb9f4f8f-4e3c-458c-a897-73024cb1042e")
+	)
+	(text "${PROJECT_TITLE}"
+		(exclude_from_sim no)
+		(at 311.15 280.4922 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce47e1e0-d7f1-403e-805e-ad85ef7dd708")
+	)
+	(text "Sheet"
+		(exclude_from_sim no)
+		(at 358.394 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcac1036-5c45-4c14-84d1-f1877149b09e")
+	)
+	(text "of"
+		(exclude_from_sim no)
+		(at 367.792 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9d44350-bc02-4f5f-bbae-fe922bf34dd8")
+	)
+	(text "${CURRENT_DATE}"
+		(exclude_from_sim no)
+		(at 317.5 289.3822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd4a2b14-3e6b-4006-bb99-7a94d984ddf4")
+	)
+	(text_box "DBM"
+		(exclude_from_sim no)
+		(at 426.72 87.4522 0)
+		(size -20.32 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "076e7f2e-c733-47b3-a055-9cfbeb383045")
+	)
+	(text_box "DBM"
+		(exclude_from_sim no)
+		(at 426.72 48.0822 0)
+		(size -20.32 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "0b79486a-58e4-4db8-b88d-9e2985535abf")
+	)
+	(text_box "3/21/23"
+		(exclude_from_sim no)
+		(at 287.02 48.0822 0)
+		(size -22.86 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "0e2f043d-6cf0-4b71-9033-92219799e178")
+	)
+	(text_box "1"
+		(exclude_from_sim no)
+		(at 27.94 32.8422 0)
+		(size -22.86 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "0e55d1c4-19f7-409b-a56d-dd9d3e5643f6")
+	)
+	(text_box "Description:"
+		(exclude_from_sim no)
+		(at 327.66 25.2222 0)
+		(size -35.56 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "0e97d8be-26bd-469c-8f23-ca2b0eea6c15")
+	)
+	(text_box "5"
+		(exclude_from_sim no)
+		(at 27.94 73.4822 0)
+		(size -22.86 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "0ea43f9c-dcd6-416b-ba6d-a94bcd467a88")
+	)
+	(text_box "1"
+		(exclude_from_sim no)
+		(at 264.16 36.6522 0)
+		(size -15.24 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "0ff6254c-88bc-4a83-a060-9cfd927f1f54")
+	)
+	(text_box "3"
+		(exclude_from_sim no)
+		(at 27.94 53.1622 0)
+		(size -22.86 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "12d24e99-b2d5-44e9-93aa-8aa35f230b83")
+	)
+	(text_box "12/05/22"
+		(exclude_from_sim no)
+		(at 287.02 36.6522 0)
+		(size -22.86 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "13798f7e-e751-47dc-8ce9-77a21f40f526")
+	)
+	(text_box "Power"
+		(exclude_from_sim no)
+		(at 147.32 43.0022 0)
+		(size -119.38 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "17db70cc-9d0e-4595-be14-d72d960d293f")
+	)
+	(text_box "DBM"
+		(exclude_from_sim no)
+		(at 426.72 60.7822 0)
+		(size -20.32 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "195e8089-0466-4a4e-b933-6674caaf9f49")
+	)
+	(text_box "04/09/25"
+		(exclude_from_sim no)
+		(at 287.02 106.5022 0)
+		(size -22.86 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "1d539d33-477e-48d0-8e9e-85dac634e200")
+	)
+	(text_box "8/16/23"
+		(exclude_from_sim no)
+		(at 287.02 60.7822 0)
+		(size -22.86 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "1ec6881c-8373-42a9-b9e8-b06c8e737057")
+	)
+	(text_box "Corrected SW1 connection to GND. R56 to 10K. U15 pin 10 to micro pin 27. Corrected Pressure_Error signal connection on title page. Swapped Battery & BLE LED labels. Added R70 & R71 to allow hardware limit of volume."
+		(exclude_from_sim no)
+		(at 406.4 106.5022 0)
+		(size -119.38 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "22555558-3dea-4e35-89b0-db4e9b0b9797")
+	)
+	(text_box "01/29/24"
+		(exclude_from_sim no)
+		(at 287.02 74.7522 0)
+		(size -22.86 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "236d1eab-55fd-4192-8fa3-834a9c162f69")
+	)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 27.94 43.0022 0)
+		(size -22.86 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "33d2ee10-b09a-4d55-9d43-df0baed07fd8")
+	)
+	(text_box "By:"
+		(exclude_from_sim no)
+		(at 421.64 25.2222 0)
+		(size -10.16 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "35fbe6ab-2c39-4b37-a0a0-4e7b59789fa9")
+	)
+	(text_box "Title Page"
+		(exclude_from_sim no)
+		(at 147.32 32.8422 0)
+		(size -119.38 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "390bb99a-59de-462e-ad5d-e8ac47abe778")
+	)
+	(text_box "Motor Driver"
+		(exclude_from_sim no)
+		(at 147.32 73.4822 0)
+		(size -119.38 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "3dfe6c32-7df2-4774-9561-b83885ed0bf2")
+	)
+	(text_box "01/06/25"
+		(exclude_from_sim no)
+		(at 287.02 87.4522 0)
+		(size -22.86 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "5be28650-646b-4306-9284-ac044f6637c4")
+	)
+	(text_box "A"
+		(exclude_from_sim no)
+		(at 264.16 60.7822 0)
+		(size -15.24 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "612a5a54-64e4-423b-a07a-c2a9cb81fb23")
+	)
+	(text_box "Initial Design based on previoud work from Duke."
+		(exclude_from_sim no)
+		(at 406.4 36.6522 0)
+		(size -119.38 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "66b0d97f-dad5-46b9-89c9-a734d0897991")
+	)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 264.16 48.0822 0)
+		(size -15.24 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "68fefb20-6f9d-4ca7-bcd8-42e829b8af6c")
+	)
+	(text_box "DBM"
+		(exclude_from_sim no)
+		(at 426.72 106.5022 0)
+		(size -20.32 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "75e440fb-6ef5-4755-ac21-053727d556c0")
+	)
+	(text_box "Micro"
+		(exclude_from_sim no)
+		(at 147.32 53.1622 0)
+		(size -119.38 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "77526a02-ced7-492e-b1bd-574a29fba194")
+	)
+	(text_box "D"
+		(exclude_from_sim no)
+		(at 264.16 106.5022 0)
+		(size -15.24 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "7aa57d72-fd5e-45e7-bbab-9312a097d270")
+	)
+	(text_box "Description"
+		(exclude_from_sim no)
+		(at 58.42 25.2222 0)
+		(size -27.94 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "7b8f754e-3dd2-4d80-8d68-c9c782a382f6")
+	)
+	(text_box "Simplified microphone amplification section."
+		(exclude_from_sim no)
+		(at 406.4 60.7822 0)
+		(size -119.38 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "7f0f0aa8-d0d4-40ac-87b9-cb6fa887dd35")
+	)
+	(text_box "C"
+		(exclude_from_sim no)
+		(at 264.16 87.4522 0)
+		(size -15.24 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "851a6f6e-ba49-4ddf-a777-146497d3ef74")
+	)
+	(text_box "U1 removed, PWM to speaker volume, removed 1//2 wave rectifier, added test points."
+		(exclude_from_sim no)
+		(at 406.4 73.4822 0)
+		(size -119.38 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "9c4d9ac2-4841-42c9-8b44-d3d12eb6fe60")
+	)
+	(text_box "Updates footprint on U5/U10. Added Low Pass Filter before audio amp. Updated value of R4. Swapped R5/R6 values."
+		(exclude_from_sim no)
+		(at 406.4 48.0822 0)
+		(size -119.38 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "a13e8af6-dcfc-469a-8e7a-5c143084ab8f")
+	)
+	(text_box "260 James Jackson\nCary NC 27513\nwww.blurpd.com"
+		(exclude_from_sim no)
+		(at 425.45 276.6822 0)
+		(size -24.13 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.397 1.397)
+				(thickness 0.2794)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "b646d688-f326-4324-99b0-0db93a5f5bd5")
+	)
+	(text_box "6"
+		(exclude_from_sim no)
+		(at 27.94 83.6422 0)
+		(size -22.86 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "b6ea51fe-9098-4b72-b8a2-c9eb2ef46066")
+	)
+	(text_box "Date:"
+		(exclude_from_sim no)
+		(at 284.48 25.2222 0)
+		(size -15.24 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "ba37c730-b114-4788-8875-77da4a1a000b")
+	)
+	(text_box "DBM"
+		(exclude_from_sim no)
+		(at 426.72 36.6522 0)
+		(size -20.32 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "bae0bad5-8bb1-43cb-913c-6f5362644ade")
+	)
+	(text_box "Rev:"
+		(exclude_from_sim no)
+		(at 264.16 25.2222 0)
+		(size -12.7 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "bbe8c97d-d2ae-40a3-9004-de35fd86af51")
+	)
+	(text_box "Audio"
+		(exclude_from_sim no)
+		(at 147.32 83.6422 0)
+		(size -119.38 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "c6cdda5c-559d-4f3c-8bf4-2ed994729f73")
+	)
+	(text_box "Page"
+		(exclude_from_sim no)
+		(at 24.13 25.2222 0)
+		(size -15.24 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "ce281a58-99ec-42d6-9ec0-a2499de3b070")
+	)
+	(text_box "4"
+		(exclude_from_sim no)
+		(at 27.94 63.3222 0)
+		(size -22.86 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "d12877ce-67bf-4d20-bc39-ba283ca279bf")
+	)
+	(text_box "Sensors"
+		(exclude_from_sim no)
+		(at 147.32 63.3222 0)
+		(size -119.38 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "de9ba762-6a93-4383-8e08-e16cae5c9ecb")
+	)
+	(text_box "B"
+		(exclude_from_sim no)
+		(at 264.16 74.7522 0)
+		(size -15.24 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "fa203e8c-0d0f-465d-a6ae-1a22a7b521e8")
+	)
+	(text_box "R6 changed to 10K and C2 added in series. R55 changed to 681 ohm to provide 1A charge current. D16 to RGB. Limit switches on board. Updated PMIC to include single button. Added notch filter to microphone. Changed pressure sensor to analog and added hardware safety to disable motor if pressure out of limits."
+		(exclude_from_sim no)
+		(at 406.4 86.1822 0)
+		(size -119.38 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "fb1f385a-3a83-44a8-969c-cf1cc226f3c8")
+	)
+	(text_box "DBM"
+		(exclude_from_sim no)
+		(at 426.72 74.7522 0)
+		(size -20.32 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "fccb4424-3a4b-4f6d-bd72-1f6afb29f4fe")
+	)
+	(junction
+		(at 172.72 139.5222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1db627e-e47f-4329-a300-795281403fbe")
+	)
+	(polyline
+		(pts
+			(xy 27.94 32.8422) (xy 27.94 43.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "03d1f4d3-a14a-4e54-9faf-4f3c39a0de19")
+	)
+	(wire
+		(pts
+			(xy 177.8 180.1622) (xy 172.72 180.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dee930d-e710-461b-81a5-f1b58afb5ab9")
+	)
+	(polyline
+		(pts
+			(xy 406.4 22.6822) (xy 406.4 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "102ffa57-2441-4707-b2da-5341804f78fd")
+	)
+	(polyline
+		(pts
+			(xy 248.92 58.2422) (xy 426.72 58.2422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "105f145c-d382-464f-8f11-d3a195777ad9")
+	)
+	(polyline
+		(pts
+			(xy 406.4 54.4322) (xy 406.4 70.9422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "12652e66-0c97-4e82-a2a9-638307c839bd")
+	)
+	(wire
+		(pts
+			(xy 101.6 126.8222) (xy 76.2 126.8222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14602b8d-3e21-42d9-8b3a-4a8f5f1771a4")
+	)
+	(wire
+		(pts
+			(xy 177.8 139.5222) (xy 172.72 139.5222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1661da-c48c-4575-8202-44d8c852c009")
+	)
+	(polyline
+		(pts
+			(xy 248.92 32.8422) (xy 248.92 45.5422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "1affee9c-8d76-4919-b3ee-7c1989e07546")
+	)
+	(polyline
+		(pts
+			(xy 5.08 32.8422) (xy 27.94 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "1bd20688-bd7a-44c5-8d3b-43e6dbf29f40")
+	)
+	(polyline
+		(pts
+			(xy 27.94 63.3222) (xy 27.94 73.4822)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "1c78a646-40e0-4a68-a5ae-2e34e18b3397")
+	)
+	(polyline
+		(pts
+			(xy 147.32 53.1622) (xy 147.32 63.3222)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "1ddbf481-374f-45f8-829a-a550aaf8c752")
+	)
+	(wire
+		(pts
+			(xy 165.1 142.0622) (xy 177.8 142.0622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e09a57-efc0-4879-8535-894508f4ad21")
+	)
+	(polyline
+		(pts
+			(xy 287.02 96.3422) (xy 287.02 109.0422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "22ce996c-b91b-4b45-847c-154524374809")
+	)
+	(wire
+		(pts
+			(xy 172.72 180.1622) (xy 172.72 139.5222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26fecd0c-48b2-41c7-bc37-da0252947404")
+	)
+	(polyline
+		(pts
+			(xy 27.94 43.0022) (xy 27.94 53.1622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "28d789c3-b3a5-45a0-a9d1-d957f7f57996")
+	)
+	(polyline
+		(pts
+			(xy 248.92 54.4322) (xy 248.92 58.2422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "2ac31f15-bd50-43dd-a68e-ee30da1bbb3f")
+	)
+	(polyline
+		(pts
+			(xy 264.16 70.9422) (xy 264.16 83.6422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "2b104339-cdb3-4b49-ad15-f79f5d8e21c7")
+	)
+	(polyline
+		(pts
+			(xy 264.16 54.4322) (xy 264.16 70.9422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "2c13d1d2-845c-4cd6-99d3-030c655d9f5f")
+	)
+	(polyline
+		(pts
+			(xy 309.88 281.7622) (xy 373.38 281.7622)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "2c557b79-0f71-4556-bbdd-11abf50926c2")
+	)
+	(polyline
+		(pts
+			(xy 248.92 58.2422) (xy 248.92 70.9422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "2ce08f9e-b62c-441d-885c-f266f33d2b02")
+	)
+	(polyline
+		(pts
+			(xy 320.04 281.7622) (xy 320.04 286.8422)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "2d6f43fd-3c35-489d-824d-2f8deb4e42d2")
+	)
+	(polyline
+		(pts
+			(xy 264.16 45.5422) (xy 287.02 45.5422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "2ecae818-194d-412a-a1d4-f422ad52937e")
+	)
+	(polyline
+		(pts
+			(xy 27.94 53.1622) (xy 147.32 53.1622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "31768964-00fc-4897-aba9-a42687c079e6")
+	)
+	(polyline
+		(pts
+			(xy 264.16 109.0422) (xy 264.16 121.7422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "3772aed4-7b57-479a-b3bf-3fe233c80493")
+	)
+	(polyline
+		(pts
+			(xy 5.08 53.1622) (xy 27.94 53.1622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "3800e6d0-8c13-4d12-9a57-d8a8ef32af15")
+	)
+	(polyline
+		(pts
+			(xy 27.94 83.6422) (xy 27.94 93.8022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "391bd62e-7534-483b-aa6a-5fa68a22c0c4")
+	)
+	(wire
+		(pts
+			(xy 76.2 139.5222) (xy 101.6 139.5222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad7f06e-d4c1-47f2-9e51-11f8cb27d95e")
+	)
+	(wire
+		(pts
+			(xy 152.4 233.5022) (xy 177.8 233.5022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be3dc19-6df3-4d1f-83bd-15ca919108c0")
+	)
+	(polyline
+		(pts
+			(xy 5.08 73.4822) (xy 27.94 73.4822)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "3ef2ccce-3c6d-420d-8ff3-1c379e6ceb01")
+	)
+	(polyline
+		(pts
+			(xy 287.02 22.6822) (xy 287.02 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "41182093-281e-41b1-9a50-1aae9bf049e7")
+	)
+	(wire
+		(pts
+			(xy 76.2 124.2822) (xy 101.6 124.2822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4291d954-4ec9-4ac0-ae6f-2f5b32edb638")
+	)
+	(polyline
+		(pts
+			(xy 27.94 32.8422) (xy 147.32 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "46856a77-a554-4693-b13c-168ffd4d2805")
+	)
+	(polyline
+		(pts
+			(xy 27.94 43.0022) (xy 27.94 53.1622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "46dfc718-54df-47b1-9762-828fb3044b97")
+	)
+	(polyline
+		(pts
+			(xy 287.02 43.0022) (xy 287.02 54.4322)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "47a71c3c-541e-4453-b7f3-314545bc9517")
+	)
+	(polyline
+		(pts
+			(xy 147.32 32.8422) (xy 147.32 43.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "4b13064c-d297-4708-ab5a-b683c6f8965b")
+	)
+	(polyline
+		(pts
+			(xy 248.92 32.8422) (xy 248.92 43.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "4c5c1bbb-f01f-4b55-b914-598552810a2c")
+	)
+	(polyline
+		(pts
+			(xy 248.92 43.0022) (xy 248.92 54.4322)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "4cf70e1d-994f-4866-accd-211c813607fc")
+	)
+	(polyline
+		(pts
+			(xy 147.32 83.6422) (xy 5.08 83.6422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "4d058854-323e-4007-b910-bbb1235a20b9")
+	)
+	(polyline
+		(pts
+			(xy 147.32 22.6822) (xy 147.32 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "4eb3aa9f-0fa3-4fc5-b8cd-cd2108bd6012")
+	)
+	(polyline
+		(pts
+			(xy 426.72 274.1422) (xy 309.88 274.1422)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "4f679c40-261a-47dd-99de-7c3f408eef28")
+	)
+	(wire
+		(pts
+			(xy 152.4 172.5422) (xy 177.8 172.5422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50003436-9e87-422a-a038-d39e1a932058")
+	)
+	(polyline
+		(pts
+			(xy 27.94 63.3222) (xy 147.32 63.3222)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "5483e80e-b2c0-44c8-a1b0-e1ffd6fbda37")
+	)
+	(polyline
+		(pts
+			(xy 287.02 109.0422) (xy 287.02 121.7422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "5618f108-2d62-42a5-be32-03b652f9cd55")
+	)
+	(polyline
+		(pts
+			(xy 287.02 70.9422) (xy 287.02 83.6422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "565927b1-9fb1-49dc-b982-879ac9a5bf17")
+	)
+	(polyline
+		(pts
+			(xy 355.6 281.7622) (xy 355.6 289.3822)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "56e2b236-6e36-4683-9f6d-ee4fc50e204c")
+	)
+	(polyline
+		(pts
+			(xy 248.92 70.9422) (xy 426.72 70.9422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "5c462ea3-10fc-4f9a-8c1e-3eb20fa02548")
+	)
+	(polyline
+		(pts
+			(xy 248.92 93.8022) (xy 248.92 106.5022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "61fa2952-ace3-4a96-bc6e-770323846df4")
+	)
+	(polyline
+		(pts
+			(xy 287.02 22.6822) (xy 287.02 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "683b379b-05b5-455c-b210-10d351a9854c")
+	)
+	(polyline
+		(pts
+			(xy 248.92 83.6422) (xy 426.72 83.6422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "6ce30446-ca1b-47a5-80e2-9a2f37a0b8cb")
+	)
+	(polyline
+		(pts
+			(xy 147.32 63.3222) (xy 147.32 73.4822)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "6dd0823c-cc32-4637-a7e1-22563c17d3a6")
+	)
+	(wire
+		(pts
+			(xy 165.1 180.1622) (xy 165.1 142.0622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb9db32-c2fa-4fa9-b7c9-89a0ab9a3ec6")
+	)
+	(polyline
+		(pts
+			(xy 147.32 93.8022) (xy 5.08 93.8022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "706168ca-6e67-45cc-bd95-781f351f0d25")
+	)
+	(polyline
+		(pts
+			(xy 406.4 22.6822) (xy 406.4 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "72d46d89-bd89-4d62-a67e-5fb33cb0a9f4")
+	)
+	(polyline
+		(pts
+			(xy 287.02 32.8422) (xy 287.02 45.5422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "733f461f-ca41-4fa1-9ca2-c0fe20aa96ba")
+	)
+	(polyline
+		(pts
+			(xy 287.02 54.4322) (xy 287.02 70.9422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "7401011f-7dec-441e-be9e-c61a5736f089")
+	)
+	(polyline
+		(pts
+			(xy 5.08 43.0022) (xy 27.94 43.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "75596439-6ca4-4715-a3be-42764445ad7f")
+	)
+	(polyline
+		(pts
+			(xy 401.32 289.3822) (xy 309.88 289.3822)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "780de9a7-35cc-496e-b2eb-aa294c19309d")
+	)
+	(wire
+		(pts
+			(xy 152.4 241.1222) (xy 177.8 241.1222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7819cc79-7076-4f35-aa31-4083e8239d1c")
+	)
+	(polyline
+		(pts
+			(xy 406.4 32.8422) (xy 426.72 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "78a0c1bb-3539-43fd-ae1d-bd0da8cd8c47")
+	)
+	(polyline
+		(pts
+			(xy 248.92 45.5422) (xy 264.16 45.5422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "7cc4eee3-5325-4991-9d19-1273db792cc9")
+	)
+	(polyline
+		(pts
+			(xy 264.16 43.0022) (xy 264.16 54.4322)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "7f4f9aee-d388-4679-9888-b96308d05404")
+	)
+	(polyline
+		(pts
+			(xy 27.94 73.4822) (xy 27.94 83.6422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "824b4f90-0601-45a9-9262-06fcaec5f556")
+	)
+	(polyline
+		(pts
+			(xy 373.38 274.1422) (xy 373.38 289.3822)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "87cd1f76-23d1-4512-a6d7-ed34a3827b6f")
+	)
+	(polyline
+		(pts
+			(xy 5.08 53.1622) (xy 27.94 53.1622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "89cbfbbf-e277-4ec3-bd7e-82715788d3cc")
+	)
+	(wire
+		(pts
+			(xy 152.4 175.0822) (xy 177.8 175.0822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e1a7f10-1fa2-4739-8cc6-1b36977ec321")
+	)
+	(wire
+		(pts
+			(xy 172.72 139.5222) (xy 152.4 139.5222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e99e589-ce14-4a55-a0c9-0c77b5c8db28")
+	)
+	(polyline
+		(pts
+			(xy 264.16 83.6422) (xy 264.16 96.3422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "8f7e40f4-ab2e-4c92-ba88-68b6eedd8057")
+	)
+	(wire
+		(pts
+			(xy 152.4 131.9022) (xy 177.8 131.9022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9b51c1-aee4-46ca-a7db-26510fa1d4aa")
+	)
+	(polyline
+		(pts
+			(xy 406.4 70.9422) (xy 406.4 83.6422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "955893b6-e9a6-4953-a1a2-ed4150b8bfba")
+	)
+	(polyline
+		(pts
+			(xy 287.02 83.6422) (xy 287.02 96.3422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "995388b9-49c2-488a-a134-0a7740780edd")
+	)
+	(polyline
+		(pts
+			(xy 264.16 32.8422) (xy 287.02 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "9ad0943f-28fd-4f0c-bdeb-bef7c55a6f81")
+	)
+	(wire
+		(pts
+			(xy 152.4 180.1622) (xy 165.1 180.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adf5a4e-f364-40e7-9c44-f0d41e51e926")
+	)
+	(polyline
+		(pts
+			(xy 406.4 32.8422) (xy 406.4 45.5422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "9b703522-6caf-4efc-9e70-391a5b492eb8")
+	)
+	(polyline
+		(pts
+			(xy 406.4 43.0022) (xy 406.4 54.4322)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "9cfa0a19-005c-475e-9153-dac539ecccfa")
+	)
+	(polyline
+		(pts
+			(xy 248.92 70.9422) (xy 248.92 83.6422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "a0757c34-31f7-477d-842c-69d6da239f4b")
+	)
+	(polyline
+		(pts
+			(xy 248.92 83.6422) (xy 248.92 121.7422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "a1abce8e-93ae-4392-9387-d59615314433")
+	)
+	(polyline
+		(pts
+			(xy 248.92 106.5022) (xy 426.72 106.5022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "a23aeb48-2f7e-4fc1-8476-788fb6a8d7a2")
+	)
+	(polyline
+		(pts
+			(xy 248.92 22.6822) (xy 248.92 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "a7f2dc19-7dee-4ef7-8297-5fd0fc3a5700")
+	)
+	(polyline
+		(pts
+			(xy 27.94 22.6822) (xy 27.94 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "abe343f6-e28f-4f4a-b2b6-7f39c9d1f11b")
+	)
+	(polyline
+		(pts
+			(xy 406.4 96.3422) (xy 406.4 109.0422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ac2fc437-81fa-41fd-88f7-50d587e23e4a")
+	)
+	(wire
+		(pts
+			(xy 152.4 187.7822) (xy 177.8 187.7822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc661d6-fad9-454c-a1a9-8ed5ecb4c1e0")
+	)
+	(polyline
+		(pts
+			(xy 27.94 32.8422) (xy 27.94 43.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "aea3af79-33b3-4feb-be65-3357622574cd")
+	)
+	(wire
+		(pts
+			(xy 76.2 131.9022) (xy 101.6 131.9022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10fd6d2-32db-491e-8476-39759072f74d")
+	)
+	(polyline
+		(pts
+			(xy 406.4 32.8422) (xy 406.4 43.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "b1f1c03d-eeaf-4046-bbf3-edcc7fa25086")
+	)
+	(wire
+		(pts
+			(xy 152.4 177.6222) (xy 177.8 177.6222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d24ad7-cdca-41a4-805c-d426344991c5")
+	)
+	(polyline
+		(pts
+			(xy 147.32 83.6422) (xy 147.32 93.8022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "b52a8ac7-8cbc-42fa-b6c8-c1916eba229e")
+	)
+	(wire
+		(pts
+			(xy 101.6 136.9822) (xy 76.2 136.9822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d3a60d-ea68-4af4-9668-9ac8f07d080c")
+	)
+	(polyline
+		(pts
+			(xy 147.32 73.4822) (xy 147.32 83.6422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "b636cfc8-45b8-4075-975b-2daffc17bb86")
+	)
+	(polyline
+		(pts
+			(xy 264.16 32.8422) (xy 287.02 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "b731de35-2c04-4006-a5fd-b8efab486a6b")
+	)
+	(polyline
+		(pts
+			(xy 287.02 32.8422) (xy 287.02 43.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ba3e0b94-5320-4bef-ae04-86b56d7f277c")
+	)
+	(polyline
+		(pts
+			(xy 27.94 73.4822) (xy 147.32 73.4822)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "bebed738-cb77-4679-a89b-4f61391dab55")
+	)
+	(polyline
+		(pts
+			(xy 5.08 32.8422) (xy 27.94 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c05a85a7-000c-4aaf-8ee8-491f867b9a97")
+	)
+	(polyline
+		(pts
+			(xy 309.88 274.1422) (xy 309.88 291.9222)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c12b9ece-44f7-4ccb-9a88-b870342c1891")
+	)
+	(polyline
+		(pts
+			(xy 248.92 121.7422) (xy 426.72 121.7422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c6ab39b4-9461-4fa6-979c-c15820b5b437")
+	)
+	(polyline
+		(pts
+			(xy 248.92 32.8422) (xy 264.16 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c73f5cb5-cbb1-45e8-906c-d98ff66078a5")
+	)
+	(polyline
+		(pts
+			(xy 248.92 32.8422) (xy 264.16 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "cc57c2e7-f603-477e-8270-30bcc1c4aef8")
+	)
+	(polyline
+		(pts
+			(xy 5.08 43.0022) (xy 27.94 43.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ceaa920e-7e37-45a8-865b-d70c1950e2cb")
+	)
+	(polyline
+		(pts
+			(xy 406.4 32.8422) (xy 426.72 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d0fb52a6-f088-4aad-9c97-35c5e32d2955")
+	)
+	(polyline
+		(pts
+			(xy 406.4 83.6422) (xy 406.4 96.3422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d169c18d-37b9-40ee-bd01-fa85bc0dfaf5")
+	)
+	(polyline
+		(pts
+			(xy 264.16 96.3422) (xy 264.16 109.0422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d1b1b778-f273-43f6-a2b6-4220b3b8f7c8")
+	)
+	(polyline
+		(pts
+			(xy 406.4 109.0422) (xy 406.4 121.7422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d341d421-9bd8-4994-bc46-e20bae006cad")
+	)
+	(polyline
+		(pts
+			(xy 287.02 45.5422) (xy 406.4 45.5422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d3ed95b0-87a6-471a-8092-6c8be00250c3")
+	)
+	(polyline
+		(pts
+			(xy 287.02 32.8422) (xy 406.4 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d3edf04c-d760-4e6f-8636-f31d15896ff5")
+	)
+	(polyline
+		(pts
+			(xy 27.94 53.1622) (xy 27.94 63.3222)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d56b62f1-b2c0-4e8c-9e5c-62ccd17859be")
+	)
+	(wire
+		(pts
+			(xy 177.8 190.3222) (xy 152.4 190.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9076bdf-e408-4f37-a582-8bf30c0024fb")
+	)
+	(polyline
+		(pts
+			(xy 264.16 22.6822) (xy 264.16 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "da87100b-635b-4f47-ab2b-c63f238106e3")
+	)
+	(polyline
+		(pts
+			(xy 27.94 43.0022) (xy 147.32 43.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "dc236368-5b5b-4c65-920c-8c80ce64d30e")
+	)
+	(polyline
+		(pts
+			(xy 264.16 22.6822) (xy 264.16 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "dd128f3c-275b-4396-8366-1f46f401e374")
+	)
+	(polyline
+		(pts
+			(xy 27.94 32.8422) (xy 147.32 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e27ad8db-da14-473b-aa2f-738e6cf62e09")
+	)
+	(polyline
+		(pts
+			(xy 147.32 43.0022) (xy 147.32 53.1622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e318df26-2216-4096-a9c9-f975efa111e4")
+	)
+	(polyline
+		(pts
+			(xy 401.32 289.3822) (xy 426.72 289.3822)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e397e5de-f350-478a-919d-f5042e73055b")
+	)
+	(polyline
+		(pts
+			(xy 287.02 32.8422) (xy 406.4 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e42e2a60-b974-4351-9b89-f2af127ea90a")
+	)
+	(wire
+		(pts
+			(xy 177.8 185.2422) (xy 152.4 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d7a764-0116-47fe-a768-4b1fb61f66f9")
+	)
+	(polyline
+		(pts
+			(xy 27.94 22.6822) (xy 27.94 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e895f9a4-8f72-4b63-9e2c-2fc0e31bf5fd")
+	)
+	(polyline
+		(pts
+			(xy 27.94 53.1622) (xy 147.32 53.1622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "eab809d0-ccd6-470c-8181-eb9d4dd3c420")
+	)
+	(polyline
+		(pts
+			(xy 147.32 22.6822) (xy 147.32 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ed735a35-fbf2-4aed-a8c1-89ab29219fd0")
+	)
+	(polyline
+		(pts
+			(xy 264.16 32.8422) (xy 264.16 45.5422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "f0c423e1-fbbd-4e68-8e3f-c295b800b665")
+	)
+	(polyline
+		(pts
+			(xy 406.4 45.5422) (xy 426.72 45.5422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "f2535ed3-a678-4b54-ad81-d167b163abaa")
+	)
+	(polyline
+		(pts
+			(xy 147.32 43.0022) (xy 147.32 53.1622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "f68faa13-0841-4681-beee-c788f58ad172")
+	)
+	(polyline
+		(pts
+			(xy 5.08 63.3222) (xy 27.94 63.3222)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "f6f1ee75-32f1-48b4-b927-085e76ecff4c")
+	)
+	(polyline
+		(pts
+			(xy 27.94 43.0022) (xy 147.32 43.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "f704657e-da53-4c0e-a544-4aa8c9355372")
+	)
+	(polyline
+		(pts
+			(xy 147.32 32.8422) (xy 147.32 43.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "fa59ca06-19bc-44d4-b2fd-84ea7194689c")
+	)
+	(polyline
+		(pts
+			(xy 248.92 22.6822) (xy 248.92 32.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "fe09707a-d1c3-477e-b936-91210e703854")
+	)
+	(polyline
+		(pts
+			(xy 309.88 286.8422) (xy 373.38 286.8422)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "fed5e9bc-eb5a-4032-9555-1bd8b320566f")
+	)
+	(image
+		(at 388.366 282.1622)
+		(scale 0.423)
+		(uuid "6c8f16bc-2baf-4078-a312-d11bdbb8b400")
+		(data "Qk0OCQEAAAAAADYAAAAoAAAAyAAAAHEAAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////5uPg7uzq////////////////////////5uPg5uPg////////"
+			"////////7uzq3dnW////////////////9/b11dDMvLOtxL235uPg////////////////////3dnW"
+			"3dnW3dnW3dnW7uzq////////////////////////////////5uPgvLOtvLOt3dnW////////////"
+			"////////////////7uzqzcbBvLOt1dDM9/b1////////////////////7uzq3dnW////////////"
+			"////////////////////////7uzq3dnW3dnW3dnW3dnW////////////////////////7uzq3dnW"
+			"3dnW3dnW3dnW3dnW5uPg////////////////7uzq5uPg////////////////////7uzq3dnW3dnW"
+			"3dnW3dnW3dnW5uPg7uzq3dnW3dnW3dnW3dnW3dnW5uPg////////////5uPgxL23vLOt1dDM9/b1"
+			"////////////////7uzq5uPg////////////////////////7uzq3dnW////////////9/b17uzq"
+			"////////////7uzq3dnW////9/b13dnW3dnW3dnW3dnW3dnW3dnW////3dnW9/b1////////////"
+			"////////////5uPg9/b1////////////9/b13dnW9/b1////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////m46EvLOt"
+			"////////////////////////m46Em46E////////////9/b1gXFlo5eO////////////tKqjeWhb"
+			"eWhbeWhbeWhbeWhbkoR65uPg////////////eWhbeWhbeWhbeWhbeWhbintwxL23////////////"
+			"////9/b1m46EeWhbeWhbeWhbeWhbintw5uPg////////////9/b1m46EeWhbeWhbeWhbeWhbgXFl"
+			"vLOt////////////////vLOteWhb////////////////////////////////////vLOteWhbeWhb"
+			"eWhbeWhbeWhbo5eO7uzq////////////vLOteWhbeWhbeWhbeWhbeWhbm46E////////////////"
+			"q6GZgXFl////////////////////vLOteWhbeWhbeWhbeWhbeWhbm46EvLOteWhbeWhbeWhbeWhb"
+			"eWhbm46E////5uPgintweWhbeWhbeWhbeWhbeWhbvLOt////////////vLOtm46E////////////"
+			"////////////vLOteWhb////////////vLOtintw////////////vLOteWhb////3dnWeWhbeWhb"
+			"eWhbeWhbeWhbeWhb////eWhb3dnW////////////////////3dnWeWhb3dnW////////////3dnW"
+			"eWhb3dnW////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////m46EvLOt////////////////////////m46Em46E////"
+			"////////vLOteWhb7uzq////////q6GZeWhbvLOt9/b1////////3dnWkoR6gXFl5uPg////////"
+			"eWhbvLOt////5uPg1dDMq6GZeWhbq6GZ////////////tKqjeWhbxL23////////7uzqkoR6intw"
+			"////////9/b1koR6gXFlzcbB9/b1////9/b1q6GZq6GZ////////////////vLOteWhb////////"
+			"////////////////////////////vLOteWhb////9/b13dnWxL23intwgXFl5uPg////////vLOt"
+			"m46E////////////////////////////////9/b1eWhbeWhbzcbB////////////////vLOtm46E"
+			"////////////////////vLOteWhb////////////////////5uPggXFlkoR63dnW////////9/b1"
+			"vLOteWhbq6GZ////////vLOtm46E////////////////////////vLOteWhb////////////intw"
+			"eWhbzcbB////////vLOteWhb////3dnWeWhb////////////////////////eWhb3dnW////////"
+			"////////9/b1gXFleWhb3dnW////////////3dnWeWhb3dnW////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////m46E"
+			"vLOt////////////////////////m46Em46E////////7uzqeWhbvLOt////////3dnWeWhbxL23"
+			"////////////////////9/b1intwm46E////////eWhbvLOt////////////////5uPgeWhbvLOt"
+			"////////gXFlq6GZ////////////////3dnWeWhb3dnW////q6GZeWhb5uPg////////////////"
+			"////////////////////////vLOteWhb////////////////////////////////////vLOteWhb"
+			"////////////////////o5eOgXFl9/b1////vLOtm46E////////////////////////////////"
+			"zcbBeWhbkoR6m46E////////////////vLOtm46E////////////////////vLOteWhb////////"
+			"////////////m46Eintw9/b1////////////////////xL23eWhb3dnW////vLOtm46E////////"
+			"////////////////vLOteWhb////////zcbBeWhbm46Eintw////////vLOteWhb////3dnWeWhb"
+			"////////////////////////eWhb3dnW////////////////m46EgXFleWhb3dnW////////////"
+			"3dnWeWhb3dnW////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////m46EvLOt////////////////////////m46Em46E"
+			"////////o5eOintw9/b1////////o5eOintw////////////////////////////zcbBeWhb5uPg"
+			"////eWhbvLOt////////////////////q6GZgXFl9/b17uzqeWhb1dDM////////////////////"
+			"eWhbvLOt////gXFlq6GZ////////////////////////////////////////////vLOteWhb////"
+			"////////////////////////////////vLOteWhb////////////////////7uzqeWhbvLOt////"
+			"vLOtm46E////////////////////////////////koR6m46EzcbBeWhb7uzq////////////vLOt"
+			"m46E////////////////////vLOteWhb////////////////5uPgeWhbzcbB////////////////"
+			"////////////intwo5eO////vLOtm46E////////////////////////vLOteWhb////////intw"
+			"q6GZ5uPgeWhb3dnW////vLOteWhb////3dnWeWhb////////////////////////eWhb3dnW////"
+			"////////vLOteWhb3dnWeWhb3dnW////////////3dnWeWhb3dnW////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"m46Eintwm46Eo5eOxL239/b1////////m46EkoR63dnWzcbBeWhbzcbB////////////gXFltKqj"
+			"////////////////////////////9/b1eWhbxL23////eWhbvLOt////////////////////3dnW"
+			"eWhb3dnW3dnWeWhb3dnW////////////////////eWhbvLOt3dnWeWhb1dDM////////////////"
+			"////////////////////////////vLOteWhb////////////////////////////////////vLOt"
+			"eWhb////////////////////////m46Em46E////vLOtm46E////////////////////////////"
+			"7uzqeWhbzcbB9/b1gXFltKqj////////////vLOtm46E////////////////////vLOteWhb////"
+			"////////////xL23eWhb9/b1////////////////////////////tKqjgXFl////vLOtgXFlm46E"
+			"m46EvLOt7uzq////////vLOteWhb////zcbBeWhb7uzq////m46Em46E////vLOteWhb////3dnW"
+			"eWhb////////////////////////eWhb3dnW////////3dnWeWhbvLOt////eWhb3dnW////////"
+			"////3dnWeWhb3dnW////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////m46Eintwm46Em46EgXFlgXFl5uPg////m46E"
+			"eWhbeWhbeWhbeWhbq6GZ9/b1////////eWhbvLOt////////////////////////////////eWhb"
+			"vLOt////eWhbvLOt////////////////////////eWhbxL233dnWeWhb3dnW////////////////"
+			"////eWhbvLOt3dnWeWhb3dnW////////////////////////////////////////////vLOteWhb"
+			"////////////////////////////////////vLOteWhb////////////////////////vLOtgXFl"
+			"////vLOtgXFlm46Em46Em46Em46E5uPg////////tKqjeWhb9/b1////q6GZintw////////////"
+			"vLOtgXFlm46Em46Em46Em46E5uPgvLOteWhb////////////////vLOteWhb////////////////"
+			"////////////////vLOteWhb////vLOtgXFlm46Em46EintweWhbzcbB////vLOteWhb////m46E"
+			"o5eO////////3dnWeWhb3dnWvLOteWhb////3dnWeWhbm46Em46Em46Em46EzcbB////eWhb3dnW"
+			"////9/b1gXFlm46E////////eWhb3dnW////////////3dnWeWhb3dnW////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////m46EvLOt////////9/b1koR6intw////m46EkoR63dnW3dnW1dDMkoR6koR69/b1////eWhb"
+			"vLOt////////////////////////////////eWhbvLOt////eWhbvLOt////////////////////"
+			"9/b1eWhbxL233dnWeWhb3dnW////////////////////eWhbvLOt3dnWeWhb3dnW////////////"
+			"////////////////////////////////vLOteWhb////////////////////////////////////"
+			"vLOteWhb////////////////////////tKqjgXFl////vLOtintwvLOtvLOtvLOtvLOt7uzq////"
+			"////intwq6GZ////////5uPgeWhb1dDM////////vLOtintwvLOtvLOtvLOtvLOt7uzqvLOteWhb"
+			"////////////////vLOteWhb////////////////////////////////vLOteWhb////vLOtm46E"
+			"////////////q6GZeWhb7uzqvLOteWhb3dnWeWhb3dnW////////////koR6q6GZvLOteWhb////"
+			"3dnWeWhbvLOtvLOtvLOtvLOt3dnW////eWhb3dnW////m46EgXFl9/b1////////eWhb3dnW////"
+			"////////3dnWeWhb3dnW////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////m46EvLOt////////////1dDMeWhb5uPg"
+			"m46Em46E////////////7uzqeWhbzcbB////m46Eo5eO////////////////////////////7uzq"
+			"eWhbzcbB////eWhbvLOt////////////////////3dnWeWhb3dnW3dnWeWhb3dnW////////////"
+			"////////eWhbvLOt9/b1eWhbvLOt////////////////////////////////////////////vLOt"
+			"eWhb////////////////////////////////////vLOteWhb////////////////////////m46E"
+			"m46E////vLOtm46E////////////////////////1dDMeWhb1dDM////////////intwo5eO////"
+			"////vLOtm46E////////////////////vLOteWhb////////////////3dnWeWhb5uPg////////"
+			"////////////////////q6GZintw////vLOtm46E////////////9/b1eWhbxL23vLOteWhbm46E"
+			"m46E////////////////zcbBeWhbq6GZeWhb////3dnWeWhb////////////////////////eWhb"
+			"3dnWvLOteWhb3dnW////////////eWhb3dnW////////////3dnWeWhb3dnW////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////m46EvLOt////////////3dnWeWhb3dnWm46Em46E////////////////eWhbvLOt////"
+			"xL23eWhb7uzq////////////////////////vLOteWhb7uzq////eWhbvLOt////////////////"
+			"////o5eOgXFl9/b13dnWeWhb3dnW////////////////////eWhbvLOt////o5eOintw9/b1////"
+			"////////////////////////////////////vLOteWhb////////////////////////////////"
+			"////vLOteWhb////////////////////5uPgeWhbvLOt////vLOtm46E////////////////////"
+			"////q6GZgXFl////////////////xL23eWhb7uzq////vLOtm46E////////////////////vLOt"
+			"eWhb////////////////////gXFlq6GZ////////////////////////9/b1gXFlq6GZ////vLOt"
+			"m46E////////////////eWhbvLOtvLOteWhbeWhb3dnW////////////////////intweWhbeWhb"
+			"////3dnWeWhb////////////////////////eWhbvLOteWhbvLOt////////////////eWhb3dnW"
+			"////////////3dnWeWhb3dnW////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////m46EvLOt////////////tKqjeWhb"
+			"7uzqm46Em46E////////////3dnWeWhbxL23////9/b1gXFlkoR69/b1////////////////3dnW"
+			"eWhbtKqj////////eWhbvLOt////////////////vLOteWhbvLOt////3dnWeWhb3dnW////////"
+			"////////////eWhbvLOt////5uPgeWhbq6GZ9/b1////////////////5uPg////////////////"
+			"vLOteWhb////////////////////////////////////vLOteWhb////////////////5uPgkoR6"
+			"gXFl9/b1////vLOtm46E////////////////////9/b1gXFltKqj////////////////9/b1eWhb"
+			"vLOt////vLOtm46E////////////////////vLOteWhb////////////////////vLOteWhbzcbB"
+			"////////////////9/b1o5eOgXFl7uzq////vLOtm46E////////////1dDMeWhbzcbBvLOteWhb"
+			"koR6////////////////////////zcbBeWhbeWhb////3dnWeWhb////////////////////////"
+			"eWhbeWhbm46E////////////////////eWhb3dnW////////////3dnWeWhb3dnW////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////m46Em46EvLOtvLOtkoR6eWhbtKqj////m46EintwvLOtvLOtq6GZgXFlkoR69/b1"
+			"////////5uPggXFlgXFltKqj1dDMzcbBq6GZeWhbkoR69/b1////////eWhbm46EvLOtvLOto5eO"
+			"gXFleWhbq6GZ////////3dnWeWhb3dnW////////////////////eWhbvLOt////////zcbBgXFl"
+			"gXFltKqj1dDMxL23koR6eWhb5uPgvLOtvLOtvLOtm46EeWhbvLOtvLOtvLOt7uzq////////////"
+			"////////vLOteWhbvLOtvLOttKqjkoR6eWhbgXFl5uPg////////vLOtintwvLOtvLOtvLOtvLOt"
+			"3dnWzcbBeWhb5uPg////////////////////q6GZintw////vLOtintwvLOtvLOtvLOtvLOt3dnW"
+			"vLOteWhb////////////////////////q6GZeWhbm46ExL233dnWvLOtintweWhbzcbB////////"
+			"vLOtintwvLOtvLOto5eOeWhbkoR6////vLOteWhbzcbB////////////////////////////gXFl"
+			"eWhb////3dnWeWhbvLOtvLOtvLOtvLOtzcbB////eWhbgXFl9/b1////////////////////eWhb"
+			"3dnWzcbBvLOtvLOtq6GZeWhbq6GZvLOtvLOt3dnW////////////////////////////////////"
+			"////////////////////////////////////////////////////tKqjm46Em46Em46Em46EzcbB"
+			"////////tKqjm46Em46Em46Em46EtKqj9/b1////////////////9/b1tKqjintweWhbeWhbkoR6"
+			"vLOt////////////////m46Em46Em46Em46Em46EtKqj5uPg////////////5uPgm46E5uPg////"
+			"////////////////m46EzcbB////////////7uzqq6GZgXFleWhbeWhbo5eO3dnW////m46Em46E"
+			"m46Em46Em46Em46Em46Em46E5uPg////////////////////zcbBm46Em46Em46Em46Eo5eOzcbB"
+			"9/b1////////////zcbBm46Em46Em46Em46Em46EzcbBvLOto5eO////////////////////////"
+			"3dnWm46E5uPgzcbBm46Em46Em46Em46Em46EzcbBzcbBm46E////////////////////////////"
+			"1dDMo5eOeWhbeWhbgXFlo5eO5uPg////////////zcbBm46Em46Em46Em46EvLOt9/b1////zcbB"
+			"o5eO////////////////////////////////xL23m46E////5uPgm46Em46Em46Em46Em46EtKqj"
+			"////m46E3dnW////////////////////////m46E5uPgtKqjm46Em46Em46Em46Em46Em46Em46E"
+			"zcbB////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW"
+			"3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW"
+			"3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW"
+			"3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW"
+			"3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW"
+			"3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW"
+			"3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW"
+			"3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW"
+			"3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW"
+			"3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW5uPg////////////////////////////"
+			"////////////////////////////////////////////////////////////eWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbm46E////////////////////////////////////////////////////////////////"
+			"////////////////////////vLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOt"
+			"vLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOt"
+			"vLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOt"
+			"vLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOt"
+			"vLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOt"
+			"vLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOt"
+			"vLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOt"
+			"vLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOt"
+			"vLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOt"
+			"vLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtzcbB////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"/////////////////////////////////////////////////////v///v//////5/D+wdn8////"
+			"/f7/p8r7wtr8////xtz8m8L6+/3/7fT+lL761ub9////xdz8y+D8/////f7/0OP9/f7/////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////ibf5ibf5////mMD6MYL11eb9zuH9MYL1NoX1/f7/XJz3MYL1wtr8lL76MYL1"
+			"YJ73////Por2Por2////udT8MYL1udT8////rM375vD+////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////tKqjm46E"
+			"m46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46E"
+			"o5eOvLOtzcbB3dnW////////////////////////////////////////////////////////////"
+			"////////////////////////tKqjm46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46E"
+			"m46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46E"
+			"m46E5uPg////////////////////////////////////////////////6PH+6PH+////zeH9jbr5"
+			"+fv/9fn/dKv4kr36////oMb6aKP48Pb+1ub9YJ73sdD7////mMH6n8X6////8Pb+nMP68Pb+////"
+			"+Pv/////////////////////////////////////////////////////////////////////////"
+			"5uPgm46Em46Em46Em46Em46Em46Em46EtKqj////////////////////////////////////////"
+			"////////////////////////////////////////////////////////xL23m46Em46Em46Em46E"
+			"m46Em46Em46Em46E1dDM////////////////////////////////////////////////////////"
+			"////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbgXFlo5eOzcbB////////"
+			"////////////////////////////////////////////////////////////////m46EeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////"
+			"////////////////////1+f91+f9////3er9stD79/r//P3/uNT8yt/8////1+b9uNT8/P3/8Pb+"
+			"r8773+z9////xt38yt/8////6/P+sdD76/P+////6PH+9Pn+////////////////////////////"
+			"////////////////////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////9/b1gXFleWhbeWhbeWhbeWhbeWhbeWhbeWhbintw9/b1////////////////"
+			"////////////////////////////////////////////////////////////////////////m46E"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbgXFlvLOt9/b1////////////////////////////////"
+			"////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhb3dnW////////////////////////+fv/////w9v8SJD2wtr8yt/8MoL1MoL1yN78TJL2"
+			"MYL1frH5mMD6MYL1MoL1vtj8PYn2MYL1mMD6ZKH3MYL1PYn2vtj8MoL1MoL1yt/8T5T2MYL1T5T2"
+			"3uv9N4b1TZP2/P3/yd78g7T5/f7/////////////////////////////////////////////////"
+			"////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////////////"
+			"////////////////////////////////////////////////////////q6GZeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbzcbB////////////////////////////////////////////////////////"
+			"////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbintw1dDM////////////////////////////////////////////////////////m46EeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////+fv/"
+			"1ub9////qsz7MYL1psn7tdL7MYL1MYL1stD7O4j1MYL1a6X4hbX5MYL1MYL1o8f7M4P1MYL1hbX5"
+			"UZb3MYL1M4P1o8f7MYL1MYL1ttP7PYn2MYL1PYn2y+D8MYL1Oof1+Pv/q8z7UJX2+fz/////////"
+			"////////////////////////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"m46E////////////////////////////////////////////////////////////////////////"
+			"////////////////5uPgeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbtKqj////////////////////"
+			"////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhb3dnW/////////////////////////////////v//4+7+/v///f7/pcj7pcj7/f7/"
+			"utX8f7L54e3+7PT+hbX5mMD6/P3/rc37hbX57PT+1OX9e6/5ttP7/P3/lL76mMD6/P3/yd78frH5"
+			"yd78////utX81OX9////////////////////////////////////////////////////////////"
+			"////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////////"
+			"////////////////////////////////////////////////////////m46EeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////////////////"
+			"////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbm46E9/b1////////////////////////////////////////////m46E"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////"
+			"rc37jLn5/f7/k736MYL1cqn4zOD9N4X1N4X1zOD9cqn4M4P1rM375vD+V5n3cKj4/P3/qcv7can4"
+			"9Pj+2ej9ZKH3tdL7/P3/aaT4bqf4/P3/ea74MYL1ea74zOD9N4X1R4/26PH+WJr3NIT1tdL7////"
+			"yN788ff+////////////////////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbm46E////////////////////////////////////////////////////////////////////"
+			"////////////////1dDMeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbq6GZ////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////"
+			"////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhb3dnW////////////////////SpH2MYL15O/+Z6P4MYL1NYT1lL76MYL1MYL1"
+			"lb/6O4j1MYL1bqf4stD7MYL1MYL15vD+ZKH3MYL1y+D8mMD6MYL1ZKH35O/+MYL1MYL15O/+OYf1"
+			"MYL1OYf1lb/6MYL1MYL1p8r7MYL1MYL1dqz4////T5T2tdL7////////////////////////////"
+			"////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////"
+			"////////////////////////////////////////////////////////intweWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbgXFl9/b1////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"koR6m46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46EkoR6eWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbq6GZ////////////////////////////////////////"
+			"m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbkoR6m46Em46Em46Em46Em46Em46Em46Em46Em46Em46E"
+			"m46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46Em46E5uPg////////////////"
+			"////1ub9wNn8////tdL7TJP2oMb65O7+WZv3WZv35O7+nMP6WJr3zuH99vr/i7j5o8f7////zOD9"
+			"pcj7/f7/7/X+mMD62ej9////nMP6ocb6////p8r7Upb3p8r75O7+V5n3cqr4+fz/irj5YJ731OX9"
+			"////7vX+/v//////////////////////////////////////////3dnWeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbm46E////////////////////////////////////////////////////////////////"
+			"////////////////vLOteWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbvLOt////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////"
+			"////////////////////////3dnWtKqjgXFleWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"1dDM////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////w9v8r877+/3/3Or9lL762Of9////zeH9"
+			"zeH9////////////////////////////////////////////////////////////////////////"
+			"////////////////w9v82+n9////v9j8mcH67fT+////z+L97/X+////////////////////////"
+			"////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////"
+			"////////////////////////////////////////////////////9/b1gXFleWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbintw////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhb3dnW////////////////////////////////////////////////////////////////9/b1"
+			"vLOtgXFleWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbgXFl9/b1////////////////////////////"
+			"////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////+fv/dqz4"
+			"3er90uT9MYL1MYL1nsT6cqr4MYL1Qoz2yt/8MYL1MYL1zeH9wdn8bqf4/f7/////9Pn+/v//////"
+			"////////////////////////////8vf++/3/////2+n9WZv32+n9xtz8MYL1OYf1y+D8MoL1MYL1"
+			"c6r4wNn8MYL1WZr3////6vL+1OX9////////////////////////////3dnWeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbm46E////////////////////////////////////////////////////////////"
+			"////////////////q6GZeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////"
+			"////////////////////////////////////////////5uPgintweWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbvLOt////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"3dnW////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////+fv/dqz43er90uT9MYL1MYL1nsT6cqr4MYL1Qoz2yt/8"
+			"MYL1MYL1zeH9wdn8bqf4/f7/////////////////////////////////////////////////////"
+			"////2+n9WZv32+n9xtz8MYL1OYf1y+D8MoL1MYL1c6r4wNn8MYL1WZr3////6vL+0+T9////////"
+			"////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////"
+			"////////////////////////////////////////////////////5uPgeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbm46E////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhb3dnW////////////////////////////////////////////////////////////////"
+			"////////////9/b1gXFleWhbeWhbeWhbeWhbeWhbeWhbeWhbgXFl9/b1////////////////////"
+			"////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////p8r7hrX5+/3/1+f9a6X41OX9////zeH9zeH9////////////////////////////"
+			"////////////////////////////////////////////////////////////w9v82+n9////rc37"
+			"bqf47fT+////qcv74u3+////////////////////////////////////////3dnWeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbm46E////////////////////////////////////////////////////////"
+			"////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb7uzq////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////"
+			"////////////////////////////////////////////////////////3dnWeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbzcbB////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhb3dnW////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////1+f9WJr3sdD71eb9NYT1MYL1psn7jrr6MYL1aqT4"
+			"////vNb8vNb8////////////////////////////////////////////////////////////////"
+			"////////////////////////oMX6xtz87PT+P4r2MYL1lL76q8z7MYL1SpH2+fv/vNb8m8L6////"
+			"////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////"
+			"////////////////////////////////////////////////////1dDMeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbvLOt////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////m46EeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhb3dnW////////////////////////////////////////////////////////////"
+			"////////////////////////q6GZeWhbeWhbeWhbeWhbeWhbeWhbeWhbo5eO////////////////"
+			"////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"qcv7MYL1dqz4stD7MYL1MYL1f7L5c6r4MYL1QIv2////bKb4bKb4////////////////////////"
+			"////////////////////////////////////////////////////////////////U5f3hrX50+T9"
+			"MYL1MYL1bKb4g7T5MYL1MoL16vL+dKv4Qoz2/v//////////////////////////3dnWeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbm46E////////////////////////////////////////////////////"
+			"////////////////intweWhbeWhbeWhbeWhbeWhbeWhbeWhbgXFl9/b1////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////"
+			"////////////////////////////////////////////////////////////////3dnWeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhb////////////////////////////m46EeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhb3dnW////////////////////////////////////////////////////////////////"
+			"/////////////////////////////////////////P3/vtj87/X+9/r/frH5a6X44e3+yt/8b6j4"
+			"wNn8/////P3//P3/////////////////////////////////////////////////////////////"
+			"////////////////////////////7vX++vz//v//lL76bKb42Of95O/+b6j4o8f7////+fz/8vf+"
+			"////////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////"
+			"////////////////////////////////////////////////////vLOteWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbzcbB////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////m46EeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////////////////"
+			"////////////////////////////////gXFleWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////"
+			"////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////7PT+mMH61ub99/r/frH5a6X44e3+5vD+nsT65vD+////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////vtj8kbz68Pb+4e3+a6X4nsT6////3Or9yd78////////////////////////////3dnWeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////////////////////////"
+			"////////////7uzqgXFleWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////"
+			"////////////////////////////////////////////////////////////////////////m46E"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbzcbB////////////////////////m46EeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhb3dnW////////////////////////////////////////////////////////////"
+			"////////////////////////////////////3+v9////g7T5MYL1UJX2stD7MYL1MYL1f7L5mMD6"
+			"MYL1cKj4////6/P+/v//////////////////////////////////////////////////////////"
+			"////////////////////////////////vtf88Pb+9Pn+NIT1MYL1kbz6f7L5MYL1MYL15vD+QIv2"
+			"MYL12uj9////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////"
+			"////////////////////////////////////////////////////q6GZeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhb3dnW////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////m46EeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////////////"
+			"////////////////////////////////////vLOteWhbeWhbeWhbeWhbeWhbeWhbeWhbvLOt////"
+			"////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////tNH7NYT1hLT51eb9NYT1MYL1psn7s9H7N4b1pcj7////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////8Pb+"
+			"/v///f7/XZz3NIT1vtj8psn7MYL1R4/29/r/g7T5YqD38/j+////////////////////////3dnW"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////////////////////"
+			"////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbq6GZ////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"vLOteWhbeWhbeWhbeWhbeWhbeWhbeWhbvLOt////////////////////////m46EeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////9vr/tNH75/D+////lL76dav49fn/"
+			"////9fn/////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////9vr/2+n9////9fn/dav4vNb8////"
+			"6/P+3+v9////////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////"
+			"////////////////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbgXFl9/b1////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////m46EeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////////"
+			"////////////////////////////////////////vLOteWhbeWhbeWhbeWhbeWhbeWhbeWhbvLOt"
+			"////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"+fz/tNH7////frH5MYL1SpH2wNn8MYL1MYL1jbr5sdD7MoL1rc37////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////YJ73MoL1xtz8jbr5MYL1N4X15e/+QIv2M4P1z+L9////////////////////////"
+			"3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////////////////"
+			"////////////zcbBeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbvLOt////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////vLOteWhbeWhbeWhbeWhbeWhbeWhbeWhbvLOt////////////////////////m46EeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////////////"
+			"////////////////////////////////////////+fz/tNH7////frH5MYL1SpH2wNn8MYL1MYL1"
+			"jbr5sdD7MoL1rc37////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////YJ73MoL1xtz8jbr5MYL1N4X1"
+			"5e/+QIv2M4P1z+L9////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E"
+			"////////////////////////////////////////////////9/b1intweWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbintw9/b1////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////m46E"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////"
+			"////////////////////////////////////////////q6GZeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"vLOt////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////9vr/t9P85/D+////sdD7n8X69vr/////9fn/////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////+Pv/5vD+////9vr/n8X6zOD9////6/P+3+v9////////////////////////"
+			"////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////////////"
+			"////////////vLOteWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb1dDM////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////intweWhbeWhbeWhbeWhbeWhbeWhbeWhbxL23////////////////////////m46EeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////xt38X573osf68Pb+ZKH3"
+			"UZb31OX9+fv/wNn8+fv/////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////1+f9qcv7/P3/1OX9UZb3"
+			"hLT5/v//ncT6hbX59Pj+////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"m46E////////////////////////////////////////////7uzqgXFleWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbm46E////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////"
+			"////////////////////////////////////////////5uPgeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhb3dnW////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////3+z9TZP2////ZqL4MYL1M4P1qcv7MYL1MYL1e6/5qMr7MYL1qMr7////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////WJr3MYL1vtj8e6/5MYL1MYL1xdz8MYL1MYL1rc37////+Pv/////////"
+			"////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////////"
+			"////////////q6GZeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb5uPg////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////q6GZeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb////////////////////////////m46E"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////"
+			"/////////////////////////////////////////////////f7/3+z9////osf6M4P1cKj43+z9"
+			"PYn2M4P1ttP76PH+jLn56PH+////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////sdD7dqz47/X+ttP7"
+			"M4P1VZj39vr/aqT4UZb34+7+////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbm46E////////////////////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbq6GZ////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////"
+			"////////////////////////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbo5eO////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////5O7+irj5y+D8/P3/i7n5cKj47PT+////9/r/////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////9fn/3+z9////7PT+cKj4sdD7////zOD9t9P8/f7/////////////"
+			"////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////"
+			"////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbgXFl7uzq////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"3dnW////////////////////////////////////////////////////////////////////////"
+			"////5uPggXFleWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb1dDM////////////////////////////"
+			"m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////"
+			"////////////////////////////////////////////////////4+7+cqr4/v//bab4MYL1OYf1"
+			"stD7MYL1MYL1hbX5vtj8M4P1vtj8////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////aaT4MoL1z+L9"
+			"hbX5MYL1M4P10+T9M4P1MYL1t9P8////9Pn+////////////////3dnWeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbm46E////////////////////////////////////zcbBeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbvLOt////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////"
+			"////////////////////////////////////////zcbBgXFleWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbintw////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////8ff+psn7////f7H5MYL1S5L2yN78MoL1MYL1mMD61ub9Xp331ub9////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////i7j5Ro/24Oz+mMD6MYL1PYn25e/+Qoz2M4P1zOD9/////f7/"
+			"////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbkoR63dnW3dnW3dnW3dnW3dnW3dnW"
+			"3dnW3dnW3dnWintweWhbeWhbeWhbeWhbeWhbeWhbeWhbintw9/b1////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhb3dnW////////////////////////////////////////////////////////////////3dnW"
+			"m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////"
+			"////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////+fz/u9b8"
+			"7fT+////vtj8o8f7/P3/////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"/////P3/o8f72+n9////8ff+6PH+////////////////////////////3dnWeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhb1dDM////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////"
+			"////////////////////7uzq1dDMtKqjintweWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbtKqj////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"3dnW////////////////////////////////////////////////////////////////////////"
+			"/////////////////////f7/1+f9////n8X6MoL1bab43+z9PYn2M4P1ttP76/P+kr366/P+////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////tdL7ea748Pb+ttP7M4P1VZj39fn/aKP4UJX24u3+////"
+			"////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbintw7uzq////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbkoR6m46Em46Em46Em46Em46Em46Em46Em46Em46Em46EkoR6eWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbkoR6////////////////////////////////"
+			"////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////"
+			"////////////////////////////////////////////////////////////1+f9Qoz2/v//ZqL4"
+			"MYL1MoL1p8r7MYL1MYL1e6/5rc37MYL1rc37////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////Wpv3"
+			"MYL1wtr8e6/5MYL1MYL1w9v8MYL1MYL1rM37////8/j+////////////////3dnWeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbkoR6zcbB9/b1////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"koR69/b1////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhb3dnW////////////////////////////////////////////////////////////////////"
+			"/////////////////////////////v//////xdz8XZ33n8X68Pb+ZKH3UZb31OX9+vz/xdz8+vz/"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////2uj9rc37/P3/1OX9UZb3hLT5/v//nMP6g7T59Pj+"
+			"////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbgXFlvLOt////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////m46EeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbo5eO9/b1////////////////////////////////"
+			"////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"1eb9d634ttP79/r/frH5a6X44e3+/v//3+v9/v//////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"6fL+xt38////4e3+a6X4nsT6////tdL7ncT6+fz/////////////////////////3dnWeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbkoR65uPg////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbgXFlxL23"
+			"////////////////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhb3dnW////////////////////////////////////////////////////////////////"
+			"////////////////////////////3er9WZr3/f7/aaT4MYL1NYT1q8z7MYL1MYL1f7L5tNH7MYL1"
+			"tNH7////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////YJ73MYL1xt38f7L5MYL1MYL1yt/8MYL1MYL1"
+			"sM/7////8/j+////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbgXFlzcbB////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////m46EeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbgXFlvLOt9/b1////////////////////////////////////////"
+			"////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////"
+			"////////////////////////////////////////////////////////////////////9/r/v9j8"
+			"////jLn5MYL1WZv31OX9NYT1MYL1psn74Oz+eK344Oz+////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////oMX6YJ736fL+psn7MYL1R4/27vX+UZX3PIj21+f9////////////////////////3dnWeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbzcbB////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbo5eO9/b1////"
+			"////////////////////////////////////////////////////////m46EeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhb3dnW////////////////////////////////////////////////////////////"
+			"/////////////////////////////////////////////v//vdf88/j+////w9v8pcn7////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////pcn73+z9////+/3/"
+			"9Pn+////////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbkoR63dnW3dnW"
+			"3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnW3dnWvLOto5eOgXFleWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbzcbB////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////m46EeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbkoR65uPg////////////////////////////////////"
+			"////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////"
+			"////////////////////////////////////////////////////////////////////////9/r/"
+			"v9j8////jLn5MYL1WZv31OX9NYT1MYL1psn74Oz+eK344Oz+////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////oMX6YJ736fL+psn7MYL1R4/27vX+UZX3PIj21+f9////////////////////////3dnW"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////////////////////"
+			"////////////////1dDMm46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbgXFl5uPg////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbkoR6m46Em46Em46E"
+			"m46Em46Em46Em46Em46EintweWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"gXFl5uPg////////////////////////////////////////////////////m46EeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////////////////"
+			"////////////////////////////////////3er9WZr3/f7/aaT4MYL1NYT1q8z7MYL1MYL1f7L5"
+			"tNH7MYL1tNH7////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////YJ73MYL1xt38f7L5MYL1MYL1yt/8"
+			"MYL1MYL1sM/7////8/j+////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////"
+			"////////////////////////////////////////////////////////////////1dDMgXFleWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbkoR6////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////m46EeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////5uPgzcbB"
+			"o5eOeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbintw9/b1////////////////////////"
+			"////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////1eb9d634ttP79/r/frH5a6X44e3+/v//3+v9/v//////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////6fL+xt38////4e3+a6X4nsT6////tdL7ncT6+fz/////////////////////////"
+			"3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////////////////"
+			"////////////////////////////////7uzqkoR6eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbzcbB"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////"
+			"////////////////////////////////////////////7uzqo5eOeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbo5eO////////////////////////////////////////////////m46EeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////////////"
+			"////////////////////////////////////////////7vX+////stD7RI32h7b56PH+TJL2O4j1"
+			"xtz89Pj+rM379Pj+////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////yN78k7369/r/xtz8O4j1aqX4"
+			"+/3/grP5aqT47PP+////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E"
+			"////////////////////////////////////////////////////////////////////////////"
+			"9/b1intweWhbeWhbeWhbeWhbeWhbeWhbeWhbintw////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////m46E"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////"
+			"////////////////zcbBeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb1dDM////////////////"
+			"////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////1eb9PIn2/f7/ZaH4MYL1MYL1pcn7MYL1MYL1e6/5rM37MYL1rM37////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////WZr3MYL1wNn8e6/5MYL1MYL1wdn8MYL1MYL1q8z7////8/j+////////////"
+			"////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////////////"
+			"////////////////////////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbzcbB////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////"
+			"////////////////////////////////////////////////////////////5uPggXFleWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbintw////////////////////////////////////////////m46EeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////////"
+			"////////////////////////////////////////////////7vX+////stD7RI32h7b56PH+TJL2"
+			"O4j1xtz89Pj+rM379Pj+////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////yN78k7369/r/xtz8O4j1"
+			"aqX4+/3/grP5aqT47PP+////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"m46E////////////////////////////////////////////////////////////////////////"
+			"////////////q6GZeWhbeWhbeWhbeWhbeWhbeWhbeWhbo5eO////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////"
+			"////////////////////////////zcbBeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb1dDM////////"
+			"////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////8Pb+qsz73uv9////sc/7m8L69vr/////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"/////////////////////f7/9Pn+////9vr/m8L6zOD9////4e3+0eP9////////////////////"
+			"////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////////"
+			"////////////////////////////////////////////////////3dnWeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbgXFl////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW"
+			"////////////////////////////////////////////////////////////////////////m46E"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbo5eO////////////////////////////////////////m46E"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////"
+			"////////////////////////////////////////////////6vL+jLn5/v//dKv4MYL1QIv2vNb8"
+			"MYL1MYL1jbr5yt/8RI72yt/8////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////dqz4N4X11+f9jbr5"
+			"MYL1N4X13Or9OYf1MYL1wdn8////+fz/////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbm46E////////////////////////////////////////////////////////////////////"
+			"////////////////////gXFleWhbeWhbeWhbeWhbeWhbeWhbeWhb5uPg////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////"
+			"////////////////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbgXFl////"
+			"////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////6vL+jLn5/v//dKv4MYL1QIv2vNb8MYL1MYL1jbr5yt/8RI72yt/8////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////dqz4N4X11+f9jbr5MYL1N4X13Or9OYf1MYL1wdn8////+fz/////"
+			"////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////"
+			"////////////////////////////////////////////////////////////m46EeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhb1dDM////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"3dnW////////////////////////////////////////////////////////////////////////"
+			"////gXFleWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////"
+			"m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////8Pb+osf63uv9"
+			"////psn7jbr59vr/////////////////////////////////////////////////////////////"
+			"/////////////////////////////////////////////////////////////////f7/9Pn+////"
+			"9vr/jbr5x938////4e3+0eP9////////////////////////////3dnWeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbm46E////////////////////////////////////////////////////////////////"
+			"////////////////////////vLOteWhbeWhbeWhbeWhbeWhbeWhbeWhbvLOt////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////"
+			"////////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"zcbB////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW"
+			"////////////////////////////////////////////////////////////////////////////"
+			"/////////////////f7/1+f9////n8X6MoL1bab43+z9PYn2M4P1ttP76/P+kr366/P+////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////tdL7ea748Pb+ttP7M4P1VZj39fn/aKP4UJX24u3+////////"
+			"////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////"
+			"////////////////////////////////////////////////////////////////vLOteWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbvLOt////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhb3dnW////////////////////////////////////////////////////////////////////"
+			"////////vLOteWhbeWhbeWhbeWhbeWhbeWhbeWhbvLOt////////////////////////////////"
+			"////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////"
+			"////////////////////////////////////////////////////////1+f9Qoz2/v//ZqL4MYL1"
+			"MoL1p8r7MYL1MYL1e6/5rc37MYL1rc37////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////Wpv3MYL1"
+			"wtr8e6/5MYL1MYL1w9v8MYL1MYL1rM37////8/j+////////////////3dnWeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbm46E////////////////////////////////////////////////////////////"
+			"////////////////////////////vLOteWhbeWhbeWhbeWhbeWhbeWhbeWhbvLOt////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////"
+			"////////////////////////////////////////////////vLOteWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbvLOt////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"3dnW////////////////////////////////////////////////////////////////////////"
+			"/////////////////////////v//////xdz8XZ33n8X68Pb+ZKH3UZb31OX9+vz/xdz8+vz/////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////2uj9rc37/P3/1OX9UZb3hLT5/v//nMP6g7T59Pj+////"
+			"////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////"
+			"////////////////////////////////////////////////////////////////////vLOteWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbvLOt////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhb3dnW////////////////////////////////////////////////////////////////"
+			"////////////vLOteWhbeWhbeWhbeWhbeWhbeWhbeWhbvLOt////////////////////////////"
+			"////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////5O7+"
+			"kLz6y+D8/P3/mMD6hbX57PT+////9/r/////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////9fn/"
+			"3+z9////7PT+hbX5ttP7////zOD9t9P8/f7/////////////////////////3dnWeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbm46E////////////////////////////////////////////////////////"
+			"////////////////////////////////q6GZeWhbeWhbeWhbeWhbeWhbeWhbeWhbvLOt////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////"
+			"////////////////////////////////////////////////////q6GZeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbvLOt////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhb3dnW////////////////////////////////////////////////////////////////////"
+			"////////////////////////4+7+cqr4/v//bab4MYL1OYf1stD7MYL1MYL1hbX5vtj8M4P1vtj8"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////aaT4MoL1z+L9hbX5MYL1M4P10+T9M4P1MYL1t9P8"
+			"////9Pn+////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////"
+			"////////////////////////////////////////////////////////////////////////koR6"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbzcbB////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////m46EeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhb3dnW////////////////////////////////////////////////////////////"
+			"////////////////koR6eWhbeWhbeWhbeWhbeWhbeWhbeWhbvLOt////////////////////////"
+			"////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////"
+			"////////////////////////////////////////////////////////////////8ff+psn7////"
+			"f7H5MYL1S5L2yN78MoL1MYL1mMD61ub9Xp331ub9////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"i7j5Ro/24Oz+mMD6MYL1PYn25e/+Qoz2M4P1zOD9/////f7/////////////////3dnWeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbm46E////////////////////////////////////////////////////"
+			"////////////////////////////////7uzqeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////"
+			"////////////////////////////////////////////////////7uzqeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhb1dDM////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhb3dnW////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////9Pj+kr363Or9////o8f7h7b5+fz/////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////+fz/h7b5xNv8////5O/+0eP9"
+			"////////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////"
+			"////////////////////////////////////////////////////////////////////////q6GZ"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////m46EeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////////////////"
+			"////////////////vLOteWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb7uzq////////////////////"
+			"////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////"
+			"////////////////////////////////////////////////////////////////////8ff+psn7"
+			"////f7H5MYL1S5L2yN78MoL1MYL1mMD61ub9Xp331ub9////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////i7j5Ro/24Oz+mMD6MYL1PYn25e/+Qoz2M4P1zOD9/////f7/////////////////3dnWeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////////////////////////"
+			"////////////////////////////////5uPgeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////"
+			"////////////////////////////////////////////////////5uPgeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbintw////////////////////////////////////////m46EeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhb3dnW////////////////////////////////////////////////////////////"
+			"////////////////////////////////4+7+cqr4/v//bab4MYL1OYf1stD7MYL1MYL1hbX5vtj8"
+			"M4P1vtj8////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////aaT4MoL1z+L9hbX5MYL1M4P10+T9M4P1"
+			"MYL1t9P8////9Pn+////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////"
+			"////////////////////////////////////////////////////////////////////9/b1intw"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbzcbB////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////m46EeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////////////"
+			"////////////5uPggXFleWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbtKqj////////////////////"
+			"////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////5O7+kLz6y+D8/P3/mMD6hbX57PT+////9/r/////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////9fn/3+z9////7PT+hbX5ttP7////zOD9t9P8/f7/////////////////////////3dnW"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////////////////////"
+			"////////////////////////////5uPgkoR6eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbgXFl9/b1"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////"
+			"////////////////////////////////////////////9/b1vLOtgXFleWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhb7uzq////////////////////////////////////////m46EeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////1eb9d634ttP79/r/frH5a6X44e3+"
+			"/v//3+v9/v//////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////6fL+xt38////4e3+a6X4nsT6////"
+			"tdL7ncT6+fz/////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////"
+			"////////////////////////////////////////////////////////////9/b1vLOteWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbvLOt////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////m46EeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////7uzq"
+			"1dDMq6GZgXFleWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbtKqj////////////////////"
+			"////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"3er9WZr3/f7/aaT4MYL1NYT1q8z7MYL1MYL1f7L5tNH7MYL1tNH7////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////YJ73MYL1xt38f7L5MYL1MYL1yt/8MYL1MYL1sM/7////8/j+////////////////"
+			"3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E////////////////////////////////////////"
+			"////////////3dnWzcbBo5eOeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbintw9/b1"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbintw9/b1////////////////////////////////////////////m46EeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////////////"
+			"////////////////////////////////////////9/r/v9j8////jLn5MYL1WZv31OX9NYT1MYL1"
+			"psn74Oz+eK344Oz+////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////oMX6YJ736fL+psn7MYL1R4/2"
+			"7vX+UZX3PIj21+f9////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////m46E"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbgXFl5uPg////////////////////"
+			"////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////8Pb+qsz73uv9////sc/7m8L69vr/////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"/////////////////f7/9Pn+////9vr/m8L6zOD9////4e3+0eP9////////////////////////"
+			"////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbzcbB////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbgXFl5uPg////////////////////////////////////////////////////m46EeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////////"
+			"////////////////////////////////////////////6vL+jLn5/v//dKv4MYL1QIv2vNb8MYL1"
+			"MYL1jbr5yt/8RI72yt/8////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////dqz4N4X11+f9jbr5MYL1"
+			"N4X13Or9OYf1MYL1wdn8////+fz/////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbzcbB////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbgXFl5uPg////////////////////////"
+			"////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////6vL+jLn5/v//dKv4MYL1QIv2vNb8MYL1MYL1jbr5yt/8RI72yt/8////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////dqz4N4X11+f9jbr5MYL1N4X13Or9OYf1MYL1wdn8////+fz/////////"
+			"////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbgXFlzcbB////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbo5eO9/b1////////////////////////////////////////////////////////////m46E"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////8Pb+qsz73uv9////"
+			"sdD7n8X69vr/////////////////////////////////////////////////////////////////"
+			"/////////////////////////////////////////////////////////////f7/9Pn+////9vr/"
+			"n8X6zOD9////4e3+0eP9////////////////////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbm46E7uzq////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E3dnW////////////////////////////////"
+			"////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////+fz/////2Of9bKb4t9P8/P3/fLD5ZaH46PH+/P3/xt38/P3/////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////4Oz+tNH7/v//6PH+ZaH4o8f7////rc37kLz6+/3/////////////"
+			"////////////3dnWeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbm46E3dnW////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbkoR6tKqj5uPg"
+			"////////////////////////////////////////////////////////////////////////////"
+			"m46EeWhbeWhbeWhbeWhbeWhbeWhbeWhb3dnW////////////////////////////////////////"
+			"////////////////////////////////////////////////////5/D+T5T2////hLT5MYL1UZX3"
+			"2ej9MYL1MYL1psn7xt38MYL1xt38////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////eK34MYL13+v9"
+			"psn7MYL1P4r2/v//NoX1MYL1z+L9////+Pv/////////////////3dnWeWhbeWhbeWhbeWhbeWhb"
+			"eWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhbeWhb"
+			"eWhbm46EvLOt7uzq////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////zcbBvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOt"
+			"vLOtvLOtvLOtvLOtzcbB3dnW9/b1////////////////////////////////////////////////"
+			"////////////////////////////////////////zcbBvLOtvLOtvLOtvLOtvLOtvLOtvLOt7uzq"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////+fz/////2Of9bKb4t9P8/P3/f7L5bab46PH+/P3/xt38/P3/////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////4Oz+tNH7/v//6PH+bab4o8f7////rc37kLz6+/3/////////"
+			"////////////////7uzqvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOt"
+			"vLOtvLOtvLOtvLOtvLOtvLOtvLOtvLOt1dDM3dnW////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////vtf8////////6vL+y+D8////////4+7+////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////1+b9////////y+D8////////8Pb+1OX9////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////C1RkeFBOR0ltYWdliVBORw0KGgoAAAANSUhEUgAAAMgA"
+			"AABxCAYAAACQnewjAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VS"
+			"ZWFkeXHJZTwAABWCSURBVHhe7V0J7D1JUQZU5EaQW05RLpXd5gjqgiygIAoCIuH4gawa4IcckvWA"
+			"v25g04IrCbBogqImLlED3iseq5xrTPAgwBoSPAi6xmg0BlkFOooX5pt89VKvXvdMzXvTPe+3219S"
+			"eT0zfdT0VHVXVx/vRjfq6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6DiDSDE8"
+			"TYXvlmK4UF3fdxOxMVIMD1FhzdPtUwwP30Ts6OjomI2T03MXnZyeu3RhQp4Xnpye+xJb3lJw8H1v"
+			"m2ZppBi+mL/npxiuSjE8O8XwhSmGn08x/F6K4e68fjx+bfraSDHcL8XwvBTDjckLeLqYz16QYnh9"
+			"iuGLbDoB6jBTr0vRUyEjtsyjw8npuatPTs99viJdc3J67vKT03Pn27IPgYPvqpWfYrhniuHjDL81"
+			"xfD5FMNfpRjOYxj0cioHwo+3edRGiuEdLPsB5AXhT1FhPsfrCxj35jY9GzlbrzUI3xJKU71Rmw2H"
+			"oC1JKGsRwXXwvUg5YxjpQX4hxXD1EfYg4GlOD9JKQTQtJiOLwCFoNejKQ80vB9/NKpkD3henGB6Y"
+			"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"
+			"AElFTkSuQmCC"
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:root_0_PCB_fab_Mechanical.SchLib")
+		(at 414.02 269.0622 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f99a9fa-0059-4267-a39a-e0a467566503")
+		(property "Reference" "PCB"
+			(at 414.02 269.0622 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "PCB_fab"
+			(at 412.75 272.8722 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 414.02 269.0622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 414.02 269.0622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PCB, FR4, 0.062"
+			(at 414.02 269.0622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "PPP-XXXX-00"
+			(at 412.75 275.4122 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PACKAGEDESCRIPTION" "Custom"
+			(at 412.75 275.4122 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "See Matspec"
+			(at 412.75 275.4122 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "NOTES" "*"
+			(at 412.75 275.4122 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(instances
+			(project "065-0200_Main Board"
+				(path "/2b9b3cc1-0bfe-481c-a67e-cf555aa233af"
+					(reference "PCB")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 119.2022)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1)
+		)
+		(uuid "6d7e462c-baf9-4a1a-8ab4-ca419e8e9c2d")
+		(property "Sheetname" "Power"
+			(at 25.4 116.6622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "065-0200_Page 2 Power.kicad_sch"
+			(at 25.4 119.2022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "USB_D_P" bidirectional
+			(at 76.2 136.9822 0)
+			(uuid "40d854b1-ef29-4a18-8d8c-20d851d06324")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D_N" bidirectional
+			(at 76.2 139.5222 0)
+			(uuid "67f4edbd-48ed-4a17-8b12-8e578045a41c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 76.2 124.2822 0)
+			(uuid "71aa04c3-0d61-433a-af9d-0de4e91dd075")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 76.2 126.8222 0)
+			(uuid "2e5aeae8-1557-43f0-9175-083ac23255df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUTTON" output
+			(at 76.2 131.9022 0)
+			(uuid "0a20ed76-ff20-4a3c-85a7-4aa64c522db6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "065-0200_Main Board"
+				(path "/2b9b3cc1-0bfe-481c-a67e-cf555aa233af"
+					(page "x")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 119.2022)
+		(size 50.8 127)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1)
+		)
+		(uuid "8000a79f-0b6d-45c6-a538-b487df433fcb")
+		(property "Sheetname" "Micro"
+			(at 101.6 116.6622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "065-0200_Page 3 Micro.kicad_sch"
+			(at 101.6 119.2022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "226HZ" output
+			(at 152.4 233.5022 0)
+			(uuid "3a46be7e-1f0a-47b7-b2ac-f76196347645")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MTR_DRV1" output
+			(at 152.4 172.5422 0)
+			(uuid "04f63464-2da8-401f-bc89-2aa081ce4cfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MTR_DRV2" output
+			(at 152.4 175.0822 0)
+			(uuid "08eef9ba-4608-4f58-b22d-3bf50ddf116b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MTR_SLEEP" output
+			(at 152.4 177.6222 0)
+			(uuid "a94df22b-572c-4d31-98a4-efe66b9809a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" output
+			(at 101.6 124.2822 180)
+			(uuid "d349c05c-7811-45f5-926e-380acd179511")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" output
+			(at 101.6 126.8222 180)
+			(uuid "b2ca7e8e-ec06-4394-a5b9-20840a8aba38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENV_OUT" input
+			(at 152.4 131.9022 0)
+			(uuid "6935773a-d364-480b-b5a2-cceab33dbd13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D_P" bidirectional
+			(at 101.6 136.9822 180)
+			(uuid "1446efac-7200-40be-bbeb-b4c9c30a6789")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D_N" bidirectional
+			(at 101.6 139.5222 180)
+			(uuid "bb37dc32-26b9-4a6e-aded-4f2ec6e7f40b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_VOL" output
+			(at 152.4 241.1222 0)
+			(uuid "61357fb4-39d5-471b-b3c0-24cff6359397")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Back_Limit" input
+			(at 152.4 185.2422 0)
+			(uuid "c2d7f6e3-7883-41a9-96e4-cb4863cf5c89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Center_Limit" input
+			(at 152.4 187.7822 0)
+			(uuid "998b7b41-1d25-4f77-a54c-b7d040fb6c9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Front_Limit" input
+			(at 152.4 190.3222 0)
+			(uuid "35821c6b-7c4e-453e-a5cc-7cec35ff05d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PRESSURE" input
+			(at 152.4 180.1622 0)
+			(uuid "026ea186-7fe9-4ef2-8fef-497d0a299feb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Pressure_Error" input
+			(at 152.4 139.5222 0)
+			(uuid "a0f31541-4838-4e9c-bc0d-908aa5653629")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUTTON" input
+			(at 101.6 131.9022 180)
+			(uuid "e80cdac6-c6fd-4784-b13e-904d6da58638")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "065-0200_Main Board"
+				(path "/2b9b3cc1-0bfe-481c-a67e-cf555aa233af"
+					(page "x")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 119.2022)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1)
+		)
+		(uuid "caaf2035-4d27-4027-853e-5eb81654fca7")
+		(property "Sheetname" "Sensors"
+			(at 177.8 116.6622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "065-0200_Page 4 Sensors.kicad_sch"
+			(at 177.8 119.2022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "ENV_OUT" output
+			(at 177.8 131.9022 180)
+			(uuid "5b9fa8c4-3502-4b0f-9fbf-576d725a7455")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PRESSURE" output
+			(at 177.8 142.0622 180)
+			(uuid "babc497f-6a3c-4649-87ac-5003365cd0bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Pressure_Error" output
+			(at 177.8 139.5222 180)
+			(uuid "02903f47-ce82-4a2f-8a6e-4c32df4f05e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "065-0200_Main Board"
+				(path "/2b9b3cc1-0bfe-481c-a67e-cf555aa233af"
+					(page "x")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 220.8022)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1)
+		)
+		(uuid "d8d65b9b-13ad-4b19-ac27-cc4ebc2e2b70")
+		(property "Sheetname" "Audio"
+			(at 177.8 218.2622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "065-0200_Page 6 Audio.kicad_sch"
+			(at 177.8 220.8022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "226HZ" input
+			(at 177.8 233.5022 180)
+			(uuid "c83555e0-e9d0-4c3f-afe1-993bb4da7289")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_VOL" input
+			(at 177.8 241.1222 180)
+			(uuid "95da8997-b252-4e58-a5de-c6ebe4bf9c13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "065-0200_Main Board"
+				(path "/2b9b3cc1-0bfe-481c-a67e-cf555aa233af"
+					(page "x")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 170.0022)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1)
+		)
+		(uuid "e40e47b4-c697-403f-ad84-9fd121c0d416")
+		(property "Sheetname" "Motor & Limits"
+			(at 177.8 167.4622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "065-0200_Page 5 Motor Driver.kicad_sch"
+			(at 177.8 170.0022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "MTR_DRV1" input
+			(at 177.8 172.5422 180)
+			(uuid "ae9f61ca-3af8-4190-8485-948387b5eb3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MTR_DRV2" input
+			(at 177.8 175.0822 180)
+			(uuid "6b428854-635a-4331-81a8-a708d05847f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MTR_SLEEP" input
+			(at 177.8 177.6222 180)
+			(uuid "e5138cf0-b56a-4824-b2d7-f7e75a833c19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Back_Limit" output
+			(at 177.8 185.2422 180)
+			(uuid "a97da2d3-9d41-4267-927e-de5c894ef3f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Center_Limit" output
+			(at 177.8 187.7822 180)
+			(uuid "027351a0-a1b1-49e3-a290-27b9ab53c9c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Front_Limit" output
+			(at 177.8 190.3222 180)
+			(uuid "06a6ebe6-96f4-4fb3-9cf0-7df879667642")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Pressure_Error" input
+			(at 177.8 180.1622 180)
+			(uuid "f42f0060-9d9c-43f5-bcd5-9bc185e9f505")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "065-0200_Main Board"
+				(path "/2b9b3cc1-0bfe-481c-a67e-cf555aa233af"
+					(page "x")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "2")
+		)
+	)
+	(embedded_fonts no)
+)
