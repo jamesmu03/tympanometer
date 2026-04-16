@@ -11682,7 +11682,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_DFN-2_1x0.6mm_P0.65mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-883"
 			(at 237.49 270.3322 0)
 			(hide yes)
 			(show_name no)
@@ -11896,7 +11896,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC4"
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW"
 			(at 368.3 45.5422 0)
 			(hide yes)
 			(show_name no)
@@ -12104,7 +12104,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC4"
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW"
 			(at 345.44 45.5422 0)
 			(hide yes)
 			(show_name no)
@@ -12587,7 +12587,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_DFN-2_1x0.6mm_P0.65mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-883"
 			(at 255.27 270.3322 0)
 			(hide yes)
 			(show_name no)
@@ -13549,7 +13549,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Connector_TagConnect:TC2030-IDC-NL"
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
 			(at 276.86 248.7422 0)
 			(hide yes)
 			(show_name no)
@@ -13667,7 +13667,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC4"
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW"
 			(at 391.16 45.5422 0)
 			(hide yes)
 			(show_name no)
@@ -15964,7 +15964,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_DFN-2_1x0.6mm_P0.65mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-883"
 			(at 246.38 270.3322 0)
 			(hide yes)
 			(show_name no)

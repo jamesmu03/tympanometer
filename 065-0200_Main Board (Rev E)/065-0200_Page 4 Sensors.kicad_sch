@@ -15929,7 +15929,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.143mm_Drill0.635mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 213.36 208.1022 0)
 			(hide yes)
 			(show_name no)
@@ -23621,7 +23621,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-6_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 114.3 65.8622 0)
 			(hide yes)
 			(show_name no)

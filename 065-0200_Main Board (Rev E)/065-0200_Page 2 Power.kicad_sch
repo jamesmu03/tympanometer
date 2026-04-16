@@ -12037,7 +12037,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 160.02 232.2322 0)
 			(hide yes)
 			(show_name no)
@@ -12364,7 +12364,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_DFN-2_1x0.6mm_P0.65mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-883"
 			(at 76.2 109.0422 0)
 			(hide yes)
 			(show_name no)
@@ -13203,7 +13203,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VSON-10-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
+		(property "Footprint" "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm"
 			(at 205.74 226.8982 0)
 			(hide yes)
 			(show_name no)
@@ -15575,7 +15575,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_DFN-2_1x0.6mm_P0.65mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-883"
 			(at 66.04 109.0422 0)
 			(hide yes)
 			(show_name no)
@@ -17251,7 +17251,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.7mm"
+		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 			(at 349.25 101.4222 0)
 			(hide yes)
 			(show_name no)
@@ -17587,7 +17587,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 124.46 83.6422 0)
 			(hide yes)
 			(show_name no)
@@ -17690,7 +17690,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Silk"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 411.48 215.7222 0)
 			(hide yes)
 			(show_name no)
@@ -18974,7 +18974,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Silk"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 401.32 215.7222 0)
 			(hide yes)
 			(show_name no)
@@ -19299,7 +19299,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Silk"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 391.16 230.9622 0)
 			(hide yes)
 			(show_name no)
@@ -21389,7 +21389,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Silk"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 411.48 230.9622 0)
 			(hide yes)
 			(show_name no)
@@ -22114,7 +22114,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 96.52 83.6422 0)
 			(hide yes)
 			(show_name no)
@@ -22217,7 +22217,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_TE_3-1437565-0"
+		(property "Footprint" "Button_Switch_SMD:Panasonic_EVQPUL_EVQPUC"
 			(at 125.73 144.6022 0)
 			(hide yes)
 			(show_name no)
@@ -23654,7 +23654,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Silk"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 401.32 230.9622 0)
 			(hide yes)
 			(show_name no)
@@ -25733,7 +25733,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Silk"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 391.16 215.7222 0)
 			(hide yes)
 			(show_name no)

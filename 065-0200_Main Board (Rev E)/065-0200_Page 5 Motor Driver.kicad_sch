@@ -12066,7 +12066,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Sensor_Optical:QRE1113_SMD"
+		(property "Footprint" "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm"
 			(at 330.2 106.5022 0)
 			(hide yes)
 			(show_name no)
@@ -12759,7 +12759,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Sensor_Optical:QRE1113_SMD"
+		(property "Footprint" "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm"
 			(at 330.2 144.6022 0)
 			(hide yes)
 			(show_name no)
@@ -13629,7 +13629,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 			(at 121.92 96.3422 0)
 			(hide yes)
 			(show_name no)
@@ -14189,7 +14189,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Sensor_Optical:QRE1113_SMD"
+		(property "Footprint" "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm"
 			(at 330.2 182.7022 0)
 			(hide yes)
 			(show_name no)
@@ -14732,7 +14732,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 63.5 111.5822 0)
 			(hide yes)
 			(show_name no)
