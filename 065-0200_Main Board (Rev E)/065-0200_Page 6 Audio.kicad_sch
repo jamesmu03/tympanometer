@@ -5234,7 +5234,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 116.6622 0)
 			(hide yes)
 			(show_name no)
@@ -5434,7 +5434,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.84 98.8822 0)
 			(hide yes)
 			(show_name no)
@@ -5634,7 +5634,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.79 91.2622 0)
 			(hide yes)
 			(show_name no)
@@ -5834,7 +5834,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.79 119.2022 0)
 			(hide yes)
 			(show_name no)
@@ -6034,7 +6034,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 226.06 73.4822 0)
 			(hide yes)
 			(show_name no)
@@ -6309,7 +6309,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 129.54 76.0222 0)
 			(hide yes)
 			(show_name no)
@@ -6584,7 +6584,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 119.2022 0)
 			(hide yes)
 			(show_name no)
@@ -6772,7 +6772,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "LM4875MM/NOPB"
 			(at 234.188 93.8022 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6783,7 +6783,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "MSOP-8_MPS"
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 203.2 93.8022 0)
 			(hide yes)
 			(show_name no)
@@ -6979,7 +6979,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.84 119.2022 0)
 			(hide yes)
 			(show_name no)
@@ -7178,7 +7178,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 165.1 119.2022 0)
 			(hide yes)
 			(show_name no)
@@ -7540,7 +7540,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Custom_2p-2MM"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 274.32 93.8022 0)
 			(hide yes)
 			(show_name no)
@@ -7741,7 +7741,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TP_TH_45-25"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.143mm_Drill0.635mm"
 			(at 261.62 95.0722 0)
 			(hide yes)
 			(show_name no)
@@ -7919,7 +7919,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 142.24 126.8222 0)
 			(hide yes)
 			(show_name no)
@@ -8119,7 +8119,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 151.13 126.8222 0)
 			(hide yes)
 			(show_name no)
@@ -8542,7 +8542,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 238.76 109.0422 0)
 			(hide yes)
 			(show_name no)
@@ -8892,7 +8892,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TP_TH_45-25"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.143mm_Drill0.635mm"
 			(at 261.62 98.8822 0)
 			(hide yes)
 			(show_name no)
@@ -8983,7 +8983,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "TLV313IDBVT"
 			(at 152.908 91.0082 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8994,7 +8994,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "IC packages.PcbLib:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 132.08 91.2622 0)
 			(hide yes)
 			(show_name no)
@@ -9268,7 +9268,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 160.02 126.8222 0)
 			(hide yes)
 			(show_name no)
@@ -9468,7 +9468,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 238.76 100.1522 0)
 			(hide yes)
 			(show_name no)
@@ -9668,7 +9668,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 93.8022 0)
 			(hide yes)
 			(show_name no)
@@ -9868,7 +9868,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 106.5022 0)
 			(hide yes)
 			(show_name no)

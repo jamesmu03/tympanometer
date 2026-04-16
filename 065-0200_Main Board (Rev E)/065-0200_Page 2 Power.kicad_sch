@@ -11487,7 +11487,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.32 78.5622 0)
 			(hide yes)
 			(show_name no)
@@ -11687,7 +11687,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.68 81.1022 0)
 			(hide yes)
 			(show_name no)
@@ -12037,7 +12037,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Connectors.PcbLib:TP_SMT_0.030"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D0.8mm"
 			(at 160.02 232.2322 0)
 			(hide yes)
 			(show_name no)
@@ -12352,7 +12352,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "D5V0H1B2LP-7B"
 			(at 73.406 95.8342 0)
 			(hide yes)
 			(show_name no)
@@ -12364,7 +12364,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "DFN2_1.01X0.61_0.65P"
+		(property "Footprint" "Diode_SMD:D_DFN-2_1x0.6mm_P0.65mm"
 			(at 76.2 109.0422 0)
 			(hide yes)
 			(show_name no)
@@ -12653,7 +12653,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 322.58 93.8022 0)
 			(hide yes)
 			(show_name no)
@@ -12916,7 +12916,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 354.33 186.5122 90)
 			(hide yes)
 			(show_name no)
@@ -12928,7 +12928,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "MH_M2.5_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 355.6 182.7022 0)
 			(hide yes)
 			(show_name no)
@@ -13192,7 +13192,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "TPS63802DLAT"
 			(at 210.82 265.2522 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13203,7 +13203,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TI-VSON-HR-10"
+		(property "Footprint" "Package_DFN_QFN:VSON-10-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"
 			(at 205.74 226.8982 0)
 			(hide yes)
 			(show_name no)
@@ -13417,7 +13417,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 273.05 96.3422 0)
 			(hide yes)
 			(show_name no)
@@ -13617,7 +13617,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 257.81 255.0922 0)
 			(hide yes)
 			(show_name no)
@@ -13955,7 +13955,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "CL10A226MO7JZNC"
 			(at 268.224 245.6942 90)
 			(hide yes)
 			(show_name no)
@@ -13967,7 +13967,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 270.51 246.2022 0)
 			(hide yes)
 			(show_name no)
@@ -14305,7 +14305,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 367.03 186.5122 90)
 			(hide yes)
 			(show_name no)
@@ -14317,7 +14317,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "MH_M2.5_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 368.3 182.7022 0)
 			(hide yes)
 			(show_name no)
@@ -14443,7 +14443,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.23 96.3422 0)
 			(hide yes)
 			(show_name no)
@@ -14655,7 +14655,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "CUI_UJ32-C-H-G-H2-SMT-TR"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 17.78 109.0422 0)
 			(hide yes)
 			(show_name no)
@@ -14887,7 +14887,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 354.33 173.8122 90)
 			(hide yes)
 			(show_name no)
@@ -14899,7 +14899,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "MH_M2.5_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 355.6 170.0022 0)
 			(hide yes)
 			(show_name no)
@@ -15025,7 +15025,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 289.56 238.5822 0)
 			(hide yes)
 			(show_name no)
@@ -15300,7 +15300,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 45.72 116.6622 0)
 			(hide yes)
 			(show_name no)
@@ -15563,7 +15563,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "D5V0H1B2LP-7B"
 			(at 63.246 95.8342 0)
 			(hide yes)
 			(show_name no)
@@ -15575,7 +15575,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "DFN2_1.01X0.61_0.65P"
+		(property "Footprint" "Diode_SMD:D_DFN-2_1x0.6mm_P0.65mm"
 			(at 66.04 109.0422 0)
 			(hide yes)
 			(show_name no)
@@ -15789,7 +15789,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 152.2222 0)
 			(hide yes)
 			(show_name no)
@@ -16077,7 +16077,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 134.62 78.5622 0)
 			(hide yes)
 			(show_name no)
@@ -16277,7 +16277,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 154.7622 0)
 			(hide yes)
 			(show_name no)
@@ -16552,7 +16552,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "CL10A226MO7JZNC"
 			(at 193.294 245.6942 90)
 			(hide yes)
 			(show_name no)
@@ -16564,7 +16564,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 195.58 246.2022 0)
 			(hide yes)
 			(show_name no)
@@ -16839,7 +16839,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 144.6022 0)
 			(hide yes)
 			(show_name no)
@@ -17052,7 +17052,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.1 247.4722 0)
 			(hide yes)
 			(show_name no)
@@ -17240,7 +17240,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "CSD25402Q3A"
 			(at 351.79 101.4222 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17251,7 +17251,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Q_8VSON_PCH _NOVIA"
+		(property "Footprint" "Package_DFN_QFN:VSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.7mm"
 			(at 349.25 101.4222 0)
 			(hide yes)
 			(show_name no)
@@ -17587,7 +17587,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Connectors.PcbLib:TP_SMT_0.030"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D0.8mm"
 			(at 124.46 83.6422 0)
 			(hide yes)
 			(show_name no)
@@ -17678,7 +17678,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 408.896 213.1382 90)
 			(hide yes)
 			(show_name no)
@@ -17690,7 +17690,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Fiducial_30"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Silk"
 			(at 411.48 215.7222 0)
 			(hide yes)
 			(show_name no)
@@ -17889,7 +17889,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 339.09 93.8022 0)
 			(hide yes)
 			(show_name no)
@@ -18090,7 +18090,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 261.62 96.3422 0)
 			(hide yes)
 			(show_name no)
@@ -18302,7 +18302,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "APT1608ZGCK"
 			(at 35.306 258.1692 0)
 			(hide yes)
 			(show_name no)
@@ -18314,7 +18314,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:LED_0603"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 38.1 261.4422 0)
 			(hide yes)
 			(show_name no)
@@ -18504,7 +18504,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "NPM1300-QEAA-R"
 			(at 203.2 180.1622 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18515,7 +18515,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "QFN-32_5X5_EXP"
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
 			(at 203.2 83.6422 0)
 			(hide yes)
 			(show_name no)
@@ -18774,7 +18774,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 165.1 237.3122 0)
 			(hide yes)
 			(show_name no)
@@ -18962,7 +18962,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 398.736 213.1382 90)
 			(hide yes)
 			(show_name no)
@@ -18974,7 +18974,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Fiducial_30"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Silk"
 			(at 401.32 215.7222 0)
 			(hide yes)
 			(show_name no)
@@ -19161,7 +19161,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 387.35 173.8122 90)
 			(hide yes)
 			(show_name no)
@@ -19173,7 +19173,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "MH_M3_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 388.62 170.0022 0)
 			(hide yes)
 			(show_name no)
@@ -19287,7 +19287,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 388.576 228.3782 90)
 			(hide yes)
 			(show_name no)
@@ -19299,7 +19299,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Fiducial_30"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Silk"
 			(at 391.16 230.9622 0)
 			(hide yes)
 			(show_name no)
@@ -19423,7 +19423,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.23 93.8022 0)
 			(hide yes)
 			(show_name no)
@@ -19637,7 +19637,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.32 152.2222 0)
 			(hide yes)
 			(show_name no)
@@ -19899,7 +19899,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 354.33 224.6122 90)
 			(hide yes)
 			(show_name no)
@@ -19911,7 +19911,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "MH_M2.5_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 355.6 220.8022 0)
 			(hide yes)
 			(show_name no)
@@ -20112,7 +20112,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:SOD-123_BD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 96.52 91.2622 0)
 			(hide yes)
 			(show_name no)
@@ -20389,7 +20389,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 354.33 237.3122 90)
 			(hide yes)
 			(show_name no)
@@ -20401,7 +20401,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "MH_M2.5_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 355.6 233.5022 0)
 			(hide yes)
 			(show_name no)
@@ -20515,7 +20515,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "CL10A226MO7JZNC"
 			(at 183.134 245.6942 90)
 			(hide yes)
 			(show_name no)
@@ -20527,7 +20527,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 185.42 246.2022 0)
 			(hide yes)
 			(show_name no)
@@ -20715,7 +20715,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "C2Q 2.5"
 			(at 111.506 84.4042 90)
 			(hide yes)
 			(show_name no)
@@ -20727,7 +20727,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 111.76 78.5622 0)
 			(hide yes)
 			(show_name no)
@@ -20915,7 +20915,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 45.72 134.4422 0)
 			(hide yes)
 			(show_name no)
@@ -21115,7 +21115,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 330.2 93.8022 0)
 			(hide yes)
 			(show_name no)
@@ -21377,7 +21377,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 408.896 228.3782 90)
 			(hide yes)
 			(show_name no)
@@ -21389,7 +21389,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Fiducial_30"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Silk"
 			(at 411.48 230.9622 0)
 			(hide yes)
 			(show_name no)
@@ -21576,7 +21576,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 367.03 173.8122 90)
 			(hide yes)
 			(show_name no)
@@ -21588,7 +21588,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "MH_M2.5_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 368.3 170.0022 0)
 			(hide yes)
 			(show_name no)
@@ -21776,7 +21776,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 400.05 173.8122 90)
 			(hide yes)
 			(show_name no)
@@ -21788,7 +21788,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "MH_M3_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 401.32 170.0022 0)
 			(hide yes)
 			(show_name no)
@@ -21914,7 +21914,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 312.42 93.8022 0)
 			(hide yes)
 			(show_name no)
@@ -22114,7 +22114,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Connectors.PcbLib:TP_SMT_0.030"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D0.8mm"
 			(at 96.52 83.6422 0)
 			(hide yes)
 			(show_name no)
@@ -22205,7 +22205,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "3-1437565-0"
 			(at 128.778 149.4282 90)
 			(hide yes)
 			(show_name no)
@@ -22217,7 +22217,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "SW_TE_3-1437565-0"
+		(property "Footprint" "Button_Switch_SMD:SW_TE_3-1437565-0"
 			(at 125.73 144.6022 0)
 			(hide yes)
 			(show_name no)
@@ -22425,7 +22425,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 149.6822 0)
 			(hide yes)
 			(show_name no)
@@ -22626,7 +22626,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 400.05 186.5122 90)
 			(hide yes)
 			(show_name no)
@@ -22638,7 +22638,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "MH_M3_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 401.32 182.7022 0)
 			(hide yes)
 			(show_name no)
@@ -22764,7 +22764,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 257.81 239.8522 0)
 			(hide yes)
 			(show_name no)
@@ -23027,7 +23027,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 387.35 186.5122 90)
 			(hide yes)
 			(show_name no)
@@ -23039,7 +23039,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "MH_M3_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 388.62 182.7022 0)
 			(hide yes)
 			(show_name no)
@@ -23153,7 +23153,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "CIGT252012LMR47MNE"
 			(at 215.392 219.7862 90)
 			(hide yes)
 			(show_name no)
@@ -23165,7 +23165,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "L_1008"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 218.44 220.8022 0)
 			(hide yes)
 			(show_name no)
@@ -23453,7 +23453,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 179.07 109.0422 0)
 			(hide yes)
 			(show_name no)
@@ -23642,7 +23642,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 398.736 228.3782 90)
 			(hide yes)
 			(show_name no)
@@ -23654,7 +23654,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Fiducial_30"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Silk"
 			(at 401.32 230.9622 0)
 			(hide yes)
 			(show_name no)
@@ -23778,7 +23778,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 280.67 246.2022 0)
 			(hide yes)
 			(show_name no)
@@ -24079,7 +24079,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "0022035025"
 			(at 378.46 114.1222 90)
 			(hide yes)
 			(show_name no)
@@ -24091,7 +24091,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Molex_2P-2.50_22035025"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 378.46 93.8022 0)
 			(hide yes)
 			(show_name no)
@@ -24292,7 +24292,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 147.1422 0)
 			(hide yes)
 			(show_name no)
@@ -24804,7 +24804,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 250.19 239.8522 0)
 			(hide yes)
 			(show_name no)
@@ -24993,7 +24993,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "C0603C102K5RACTU"
 			(at 160.274 113.6142 90)
 			(hide yes)
 			(show_name no)
@@ -25005,7 +25005,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 160.02 119.2022 0)
 			(hide yes)
 			(show_name no)
@@ -25205,7 +25205,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 25.4 247.4722 0)
 			(hide yes)
 			(show_name no)
@@ -25393,7 +25393,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 367.03 224.6122 90)
 			(hide yes)
 			(show_name no)
@@ -25405,7 +25405,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "MH_M2.5_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 368.3 220.8022 0)
 			(hide yes)
 			(show_name no)
@@ -25519,7 +25519,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "APT1608ZGCK"
 			(at 22.606 258.1692 0)
 			(hide yes)
 			(show_name no)
@@ -25531,7 +25531,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:LED_0603"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 25.4 261.4422 0)
 			(hide yes)
 			(show_name no)
@@ -25721,7 +25721,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DNI"
 			(at 388.576 213.1382 90)
 			(hide yes)
 			(show_name no)
@@ -25733,7 +25733,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Fiducial_30"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Silk"
 			(at 391.16 215.7222 0)
 			(hide yes)
 			(show_name no)

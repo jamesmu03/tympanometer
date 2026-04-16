@@ -11245,7 +11245,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 350.52 175.0822 0)
 			(hide yes)
 			(show_name no)
@@ -11519,7 +11519,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 350.52 98.8822 0)
 			(hide yes)
 			(show_name no)
@@ -11793,7 +11793,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 317.5 109.0422 0)
 			(hide yes)
 			(show_name no)
@@ -12066,7 +12066,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "SOIC180P460X187-4N"
+		(property "Footprint" "Sensor_Optical:QRE1113_SMD"
 			(at 330.2 106.5022 0)
 			(hide yes)
 			(show_name no)
@@ -12412,7 +12412,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 157.48 76.0222 0)
 			(hide yes)
 			(show_name no)
@@ -12759,7 +12759,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "SOIC180P460X187-4N"
+		(property "Footprint" "Sensor_Optical:QRE1113_SMD"
 			(at 330.2 144.6022 0)
 			(hide yes)
 			(show_name no)
@@ -12955,7 +12955,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 114.3 119.2022 0)
 			(hide yes)
 			(show_name no)
@@ -13155,7 +13155,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 350.52 136.9822 0)
 			(hide yes)
 			(show_name no)
@@ -13430,7 +13430,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.68 119.2022 0)
 			(hide yes)
 			(show_name no)
@@ -13618,7 +13618,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "DRV8837DSGR"
 			(at 157.988 96.3422 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13629,7 +13629,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "WSON_8_2X2"
+		(property "Footprint" "Package_DFN_QFN:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 			(at 121.92 96.3422 0)
 			(hide yes)
 			(show_name no)
@@ -13840,7 +13840,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 317.5 147.1422 0)
 			(hide yes)
 			(show_name no)
@@ -14189,7 +14189,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "SOIC180P460X187-4N"
+		(property "Footprint" "Sensor_Optical:QRE1113_SMD"
 			(at 330.2 182.7022 0)
 			(hide yes)
 			(show_name no)
@@ -14459,7 +14459,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 63.5 93.8022 0)
 			(hide yes)
 			(show_name no)
@@ -14721,7 +14721,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "74LVC1G27GW,12"
 			(at 70.612 114.8842 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14732,7 +14732,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "SOT_363"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363"
 			(at 63.5 111.5822 0)
 			(hide yes)
 			(show_name no)
@@ -14922,7 +14922,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "0022035025"
 			(at 187.96 124.2822 90)
 			(hide yes)
 			(show_name no)
@@ -14934,7 +14934,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Molex_2P-2.50_22035025"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 187.96 103.9622 0)
 			(hide yes)
 			(show_name no)
@@ -15284,7 +15284,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 121.92 76.0222 0)
 			(hide yes)
 			(show_name no)
@@ -16007,7 +16007,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 317.5 185.2422 0)
 			(hide yes)
 			(show_name no)

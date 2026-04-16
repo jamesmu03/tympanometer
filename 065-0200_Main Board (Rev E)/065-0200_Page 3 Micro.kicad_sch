@@ -8240,7 +8240,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 406.4 124.2822 0)
 			(hide yes)
 			(show_name no)
@@ -8737,7 +8737,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 223.52 73.4822 0)
 			(hide yes)
 			(show_name no)
@@ -8937,7 +8937,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 43.0022 0)
 			(hide yes)
 			(show_name no)
@@ -9223,7 +9223,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.64 45.5422 0)
 			(hide yes)
 			(show_name no)
@@ -9447,7 +9447,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 391.16 56.9722 0)
 			(hide yes)
 			(show_name no)
@@ -9647,7 +9647,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 83.82 60.7822 0)
 			(hide yes)
 			(show_name no)
@@ -9847,7 +9847,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 157.48 53.1622 0)
 			(hide yes)
 			(show_name no)
@@ -10047,7 +10047,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 93.8022 0)
 			(hide yes)
 			(show_name no)
@@ -10235,7 +10235,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 106.68 53.1622 0)
 			(hide yes)
 			(show_name no)
@@ -10510,7 +10510,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 368.3 56.9722 0)
 			(hide yes)
 			(show_name no)
@@ -10710,7 +10710,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 361.95 56.9722 0)
 			(hide yes)
 			(show_name no)
@@ -10910,7 +10910,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 397.51 56.9722 0)
 			(hide yes)
 			(show_name no)
@@ -11258,7 +11258,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 345.44 56.9722 0)
 			(hide yes)
 			(show_name no)
@@ -11670,7 +11670,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "D5V0H1B2LP-7B"
 			(at 234.696 257.1242 0)
 			(hide yes)
 			(show_name no)
@@ -11682,7 +11682,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "DFN2_1.01X0.61_0.65P"
+		(property "Footprint" "Diode_SMD:D_DFN-2_1x0.6mm_P0.65mm"
 			(at 237.49 270.3322 0)
 			(hide yes)
 			(show_name no)
@@ -11884,7 +11884,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "CLVBA-FKA-CAEDH8BBB7A363"
 			(at 359.156 42.4942 0)
 			(hide yes)
 			(show_name no)
@@ -11896,7 +11896,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:LED_PLCC4 - CLVBA"
+		(property "Footprint" "LED_SMD:LED_PLCC4"
 			(at 368.3 45.5422 0)
 			(hide yes)
 			(show_name no)
@@ -12092,7 +12092,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "CLVBA-FKA-CAEDH8BBB7A363"
 			(at 336.296 42.4942 0)
 			(hide yes)
 			(show_name no)
@@ -12104,7 +12104,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:LED_PLCC4 - CLVBA"
+		(property "Footprint" "LED_SMD:LED_PLCC4"
 			(at 345.44 45.5422 0)
 			(hide yes)
 			(show_name no)
@@ -12387,7 +12387,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 262.89 239.8522 0)
 			(hide yes)
 			(show_name no)
@@ -12575,7 +12575,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "D5V0H1B2LP-7B"
 			(at 252.476 257.1242 0)
 			(hide yes)
 			(show_name no)
@@ -12587,7 +12587,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "DFN2_1.01X0.61_0.65P"
+		(property "Footprint" "Diode_SMD:D_DFN-2_1x0.6mm_P0.65mm"
 			(at 255.27 270.3322 0)
 			(hide yes)
 			(show_name no)
@@ -12801,7 +12801,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 339.09 56.9722 0)
 			(hide yes)
 			(show_name no)
@@ -13001,7 +13001,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 223.52 136.9822 0)
 			(hide yes)
 			(show_name no)
@@ -13201,7 +13201,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 262.89 265.2522 0)
 			(hide yes)
 			(show_name no)
@@ -13549,7 +13549,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "TC2030_IDC"
+		(property "Footprint" "Connector_TagConnect:TC2030-IDC-NL"
 			(at 276.86 248.7422 0)
 			(hide yes)
 			(show_name no)
@@ -13655,7 +13655,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "CLVBA-FKA-CAEDH8BBB7A363"
 			(at 382.016 42.4942 0)
 			(hide yes)
 			(show_name no)
@@ -13667,7 +13667,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:LED_PLCC4 - CLVBA"
+		(property "Footprint" "LED_SMD:LED_PLCC4"
 			(at 391.16 45.5422 0)
 			(hide yes)
 			(show_name no)
@@ -13875,7 +13875,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.9 73.4822 0)
 			(hide yes)
 			(show_name no)
@@ -14075,7 +14075,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 351.79 56.9722 0)
 			(hide yes)
 			(show_name no)
@@ -14263,7 +14263,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}${DNP}"
+		(property "Value" "BM833"
 			(at 125.73 67.1322 90)
 			(hide yes)
 			(show_name no)
@@ -14674,7 +14674,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 374.65 56.9722 0)
 			(hide yes)
 			(show_name no)
@@ -14862,7 +14862,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "APT1608ZGCK"
 			(at 403.606 134.9792 0)
 			(hide yes)
 			(show_name no)
@@ -14874,7 +14874,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:LED_0603"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 406.4 138.2522 0)
 			(hide yes)
 			(show_name no)
@@ -15064,7 +15064,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "9HT10-32.768KBZF-T"
 			(at 58.166 94.5642 0)
 			(hide yes)
 			(show_name no)
@@ -15076,7 +15076,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Y_2PIN_3.2mmX1.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 60.96 95.0722 0)
 			(hide yes)
 			(show_name no)
@@ -15265,7 +15265,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.84 45.5422 0)
 			(hide yes)
 			(show_name no)
@@ -15489,7 +15489,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 83.82 73.4822 0)
 			(hide yes)
 			(show_name no)
@@ -15689,7 +15689,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127 53.1622 0)
 			(hide yes)
 			(show_name no)
@@ -15952,7 +15952,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${PART NUMBER}"
+		(property "Value" "D5V0H1B2LP-7B"
 			(at 243.586 257.1242 0)
 			(hide yes)
 			(show_name no)
@@ -15964,7 +15964,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "DFN2_1.01X0.61_0.65P"
+		(property "Footprint" "Diode_SMD:D_DFN-2_1x0.6mm_P0.65mm"
 			(at 246.38 270.3322 0)
 			(hide yes)
 			(show_name no)
@@ -16178,7 +16178,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:RES_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 384.81 56.9722 0)
 			(hide yes)
 			(show_name no)
@@ -16454,7 +16454,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 109.0422 0)
 			(hide yes)
 			(show_name no)
@@ -16642,7 +16642,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Discretes.PcbLib:CAP_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 45.5422 0)
 			(hide yes)
 			(show_name no)
