@@ -651,7 +651,7 @@
         "uuid": "2b9b3cc1-0bfe-481c-a67e-cf555aa233af"
       }
     ],
-    "used_designators": "PCB1,#PWR1-116",
+    "used_designators": "#PWR1-2,J7",
     "variants": []
   },
   "sheets": [

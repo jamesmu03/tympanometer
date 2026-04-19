@@ -1517,25 +1517,7 @@
 					)
 				)
 				(pin passive line
-					(at -45.72 -12.7 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -48.26 -12.7 90)
+					(at -53.34 -12.7 90)
 					(length 5.08)
 					(name "SHIELD"
 						(effects
@@ -1571,7 +1553,25 @@
 					)
 				)
 				(pin passive line
-					(at -53.34 -12.7 90)
+					(at -48.26 -12.7 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -45.72 -12.7 90)
 					(length 5.08)
 					(name "SHIELD"
 						(effects
@@ -5471,24 +5471,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 270)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 5.08 -20.32 90)
 					(length 5.08)
 					(name "3"
@@ -5499,6 +5481,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6006,6 +6006,24 @@
 					)
 				)
 				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "D"
@@ -6070,24 +6088,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6687,24 +6687,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 270)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "K"
@@ -6715,6 +6697,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14772,19 +14772,19 @@
 				(justify right bottom)
 			)
 		)
-		(pin "SH4"
+		(pin "SH"
 			(uuid "9e8c3455-1212-4c40-9074-a68770e4cefe")
 		)
 		(pin "B12"
 			(uuid "7820407b-9248-4310-9b39-ecf96c4561e3")
 		)
-		(pin "SH1"
+		(pin "SH"
 			(uuid "6fcbcff1-5c81-4604-8a61-8df7a76fc4a7")
 		)
-		(pin "SH2"
+		(pin "SH"
 			(uuid "715a1b88-29dc-401c-8d3b-12f8be2fb3ab")
 		)
-		(pin "SH3"
+		(pin "SH"
 			(uuid "497d4abf-6122-48cc-8f6b-10207429205f")
 		)
 		(pin "A4"
@@ -17380,19 +17380,19 @@
 				(justify right bottom)
 			)
 		)
-		(pin "D3"
+		(pin "1"
 			(uuid "62b64945-1581-452e-afe9-b412af9b890b")
 		)
-		(pin "S"
+		(pin "5"
 			(uuid "dfe6192e-4fa8-4cab-b4f7-5601e5f48ef3")
 		)
-		(pin "G"
+		(pin "6"
 			(uuid "badc6fbb-5fe1-424b-8707-21c44d862009")
 		)
-		(pin "D2"
+		(pin "7"
 			(uuid "5c2c7258-74b5-475e-863f-3051bb34953d")
 		)
-		(pin "D1"
+		(pin "8"
 			(uuid "a030ef46-affa-4282-81f1-c342b1770736")
 		)
 		(instances
@@ -18467,10 +18467,10 @@
 				(justify left bottom)
 			)
 		)
-		(pin "K"
+		(pin "1"
 			(uuid "bf58616f-6d8d-4625-b8e1-86ce5573d5b3")
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "995fc50a-86c1-4799-bd95-be5a932e679a")
 		)
 		(instances
@@ -22373,13 +22373,13 @@
 		(pin "2"
 			(uuid "c4baff1e-aed6-4dfb-8eed-2552dd6c1163")
 		)
-		(pin "4"
+		(pin "1"
 			(uuid "e01bfee5-599d-4f13-9d41-ccfe27fe4bc6")
 		)
 		(pin "1"
 			(uuid "37071510-1af2-41a0-a565-abd4496452b5")
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "de710389-027c-4af7-b7e2-fe56d0b47fa8")
 		)
 		(instances
@@ -25684,10 +25684,10 @@
 				(justify left bottom)
 			)
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "0e9c4b15-39d9-499f-9ddb-e25f3a6884e7")
 		)
-		(pin "K"
+		(pin "2"
 			(uuid "d79fcdd4-85be-4b7e-9c2c-38bacfb32055")
 		)
 		(instances
