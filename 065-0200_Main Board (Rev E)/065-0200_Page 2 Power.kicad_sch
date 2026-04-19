@@ -1006,7 +1006,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
+			(duplicate_pin_numbers_are_jumpers yes)
 			(property "Reference" ""
 				(at 0 0 0)
 				(show_name no)
@@ -1526,7 +1526,7 @@
 							)
 						)
 					)
-					(number "SH1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1544,7 +1544,7 @@
 							)
 						)
 					)
-					(number "SH2"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1562,7 +1562,7 @@
 							)
 						)
 					)
-					(number "SH3"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1580,7 +1580,7 @@
 							)
 						)
 					)
-					(number "SH4"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5234,7 +5234,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
+			(duplicate_pin_numbers_are_jumpers yes)
 			(property "Reference" ""
 				(at 0 0 0)
 				(show_name no)
@@ -5498,7 +5498,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5516,7 +5516,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6015,7 +6015,7 @@
 							)
 						)
 					)
-					(number "D1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6033,7 +6033,7 @@
 							)
 						)
 					)
-					(number "D2"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6051,7 +6051,7 @@
 							)
 						)
 					)
-					(number "D3"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6069,7 +6069,7 @@
 							)
 						)
 					)
-					(number "G"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6087,7 +6087,7 @@
 							)
 						)
 					)
-					(number "S"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6696,7 +6696,7 @@
 							)
 						)
 					)
-					(number "A"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6714,7 +6714,7 @@
 							)
 						)
 					)
-					(number "K"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14655,7 +14655,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A"
 			(at 17.78 109.0422 0)
 			(hide yes)
 			(show_name no)

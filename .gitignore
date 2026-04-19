@@ -11,3 +11,4 @@ _autosave-*
 \#auto_saved_files#
 fp-info-cache
 fp-lib-table
+*.md
