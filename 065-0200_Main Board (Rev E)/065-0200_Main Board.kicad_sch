@@ -3834,7 +3834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f99a9fa-0059-4267-a39a-e0a467566503")
-		(property "Reference" "PCB"
+		(property "Reference" "PCB1"
 			(at 414.02 269.0622 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3941,7 +3941,7 @@
 		(instances
 			(project "065-0200_Main Board"
 				(path "/2b9b3cc1-0bfe-481c-a67e-cf555aa233af"
-					(reference "PCB")
+					(reference "PCB1")
 					(unit 1)
 				)
 			)
