@@ -20036,7 +20036,7 @@
 	)
 	(footprint "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW"
 		(layer "B.Cu")
-		(uuid "4bcb2515-uuid "4d8423cb-cf61-4518-b378-b5d824e13d20")
+		(uuid "4d8423cb-cf61-4518-b378-b5d824e13d20")
 		(path "/8000a79f-0b6d-45c6-a538-b487df433fcb/9c0df003-8ac1-4b24-9aea-4456230ce604")
 		(at 212.2511 95.003605 180)
 		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://assets.cree-led.com/a/ds/h/HB-CLV1A-FKB.pdf")
