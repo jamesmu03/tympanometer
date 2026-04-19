@@ -1428,7 +1428,6 @@
 			(uuid "5cff274e-cd51-4ef7-a648-0a5de0bc695e")
 		)
 		(embedded_fonts no)
-		(embedded_files)
 		(model "kicad-embed://step_temp.STEP"
 			(offset
 				(xyz 0 -0 0)
@@ -1990,7 +1989,6 @@
 			(uuid "6f86770b-f20d-49ef-8d0c-a8f353d2fae3")
 		)
 		(embedded_fonts no)
-		(embedded_files)
 		(model "kicad-embed://Same_Sky_UJ32-C-H-G-H2-SMT-TR.step"
 			(offset
 				(xyz 0.01576 -2.09848 1.5)
@@ -2249,7 +2247,6 @@
 			(uuid "210553d5-cd56-4abf-81a2-534fca2675f0")
 		)
 		(embedded_fonts no)
-		(embedded_files)
 		(model "kicad-embed://step_temp.STEP"
 			(offset
 				(xyz 0 -0 0)
@@ -2528,7 +2525,6 @@
 			)
 		)
 		(embedded_fonts no)
-		(embedded_files)
 		(model "kicad-embed://022035025.stp"
 			(offset
 				(xyz 0 0 9.3)
@@ -3005,7 +3001,6 @@
 			)
 		)
 		(embedded_fonts no)
-		(embedded_files)
 		(model "kicad-embed://022035025.stp"
 			(offset
 				(xyz 0 -0 9.3)
@@ -3341,7 +3336,6 @@
 			(uuid "34d26053-5b2b-49df-80db-51a1043b522b")
 		)
 		(embedded_fonts no)
-		(embedded_files)
 		(model "kicad-embed://step_temp.STEP"
 			(offset
 				(xyz 0 -0 0)
@@ -13173,7 +13167,6 @@
 			(uuid "1a8cb555-2f47-43ed-aa03-e5261e3d233e")
 		)
 		(embedded_fonts no)
-		(embedded_files)
 		(model "kicad-embed://2SMPP-03--3DModel-STEP-56544.STEP"
 			(offset
 				(xyz 0 -0 1)
@@ -20037,7 +20030,6 @@
 	(footprint "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW"
 		(layer "B.Cu")
 		(uuid "4d8423cb-cf61-4518-b378-b5d824e13d20")
-		(path "/8000a79f-0b6d-45c6-a538-b487df433fcb/9c0df003-8ac1-4b24-9aea-4456230ce604")
 		(at 212.2511 95.003605 180)
 		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://assets.cree-led.com/a/ds/h/HB-CLV1A-FKB.pdf")
 		(tags "LED Cree PLCC-4 3528 CLV1A-FKB")
@@ -20097,6 +20089,7 @@
 				)
 			)
 		)
+		(path "/8000a79f-0b6d-45c6-a538-b487df433fcb/9c0df003-8ac1-4b24-9aea-4456230ce604")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22692,7 +22685,6 @@
 		(locked yes)
 		(layer "B.Cu")
 		(uuid "596a0701-afad-4ea8-9c3b-e111f316519f")
-		(path "/8000a79f-0b6d-45c6-a538-b487df433fcb/b7500472-7ef9-4e44-822b-f0640befaa67")
 		(at 212.2511 115.003605 180)
 		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://assets.cree-led.com/a/ds/h/HB-CLV1A-FKB.pdf")
 		(tags "LED Cree PLCC-4 3528 CLV1A-FKB")
@@ -22752,6 +22744,7 @@
 				)
 			)
 		)
+		(path "/8000a79f-0b6d-45c6-a538-b487df433fcb/b7500472-7ef9-4e44-822b-f0640befaa67")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25438,7 +25431,6 @@
 		(locked yes)
 		(layer "B.Cu")
 		(uuid "66c1c715-98aa-4931-9c89-cc173dff0e04")
-		(path "/8000a79f-0b6d-45c6-a538-b487df433fcb/9c9c4ce8-2e2e-4d66-bc95-605554e5e6f9")
 		(at 212.2511 105.003605 180)
 		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://assets.cree-led.com/a/ds/h/HB-CLV1A-FKB.pdf")
 		(tags "LED Cree PLCC-4 3528 CLV1A-FKB")
@@ -25498,6 +25490,7 @@
 				)
 			)
 		)
+		(path "/8000a79f-0b6d-45c6-a538-b487df433fcb/9c9c4ce8-2e2e-4d66-bc95-605554e5e6f9")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -47398,7 +47391,6 @@
 			(uuid "04494ec8-966d-409e-8cb7-d68dadebf6cb")
 		)
 		(embedded_fonts no)
-		(embedded_files)
 		(model "kicad-embed://3-1437565-0 Tactile Switch.STEP"
 			(offset
 				(xyz 0.00007 0.00007 3.75)
@@ -59448,5 +59440,4 @@
 		)
 	)
 	(embedded_fonts no)
-	(embedded_files)
 )

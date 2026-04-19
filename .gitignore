@@ -12,3 +12,5 @@ _autosave-*
 fp-info-cache
 fp-lib-table
 *.md
+pcb_edit.py
+freerouting.jar
