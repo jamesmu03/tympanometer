@@ -4,7 +4,7 @@
     {
       "analysis": "AC",
       "commands": [
-        ".ac dec 10 1 10k",
+        ".ac dec 10 1 2k",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -28,7 +28,7 @@
             "y_format": "3~dB"
           },
           "cursor2": {
-            "position": 59.948425031894146,
+            "position": 96.60350676040879,
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
@@ -36,8 +36,39 @@
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
-          "signal": "V(/Inverting_out) (gain)",
+          "signal": "V(/MFB_OUT) (gain)",
           "trace_type": 521
+        }
+      ]
+    },
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 100u 100m 1m",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/Buffer_Out)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/Sin_Out)",
+          "trace_type": 257
         }
       ]
     }
