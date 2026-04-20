@@ -4,7 +4,7 @@
     {
       "analysis": "AC",
       "commands": [
-        ".ac dec 100 1 100k",
+        ".ac dec 100 1 10k",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -21,19 +21,14 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(/bp_out) (phase)",
-          "trace_type": 517
-        },
-        {
           "color": "rgb(228, 26, 28)",
           "cursor1": {
-            "position": 60.021854522273415,
+            "position": 226.0,
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
           "cursor2": {
-            "position": 225.15007155084265,
+            "position": 353.4163232137988,
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
@@ -41,7 +36,7 @@
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
-          "signal": "V(/env_out) (gain)",
+          "signal": "V(/mfb_out) (gain)",
           "trace_type": 521
         }
       ]
@@ -49,7 +44,7 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 100n 10m",
+        ".tran 1u 30m",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -66,13 +61,18 @@
       "showGrid": true,
       "traces": [
         {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/buffer_out)",
+          "trace_type": 257
+        },
+        {
           "color": "rgb(55, 126, 184)",
-          "signal": "V(/bp_out)",
+          "signal": "V(/input_signal)",
           "trace_type": 257
         },
         {
           "color": "rgb(228, 26, 28)",
-          "signal": "V(/env_out)",
+          "signal": "V(/mfb_out)",
           "trace_type": 257
         }
       ]
