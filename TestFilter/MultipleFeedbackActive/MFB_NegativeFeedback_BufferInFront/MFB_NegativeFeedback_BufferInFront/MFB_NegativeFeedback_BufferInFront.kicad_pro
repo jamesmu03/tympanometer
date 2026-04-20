@@ -250,7 +250,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MultipleFeedbackActive.kicad_pro",
+    "filename": "MFB_NegativeFeedback_BufferInFront.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -402,7 +402,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": "MultipleFeedbackActive.wbk"
+      "workbook_filename": "MFB_NegativeFeedback_BufferInFront.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -418,7 +418,7 @@
   },
   "sheets": [
     [
-      "4f3d1f9e-d3d8-41ff-a5b4-8e64e231e988",
+      "0f7cf7f7-8142-4deb-b714-6c0fe5c577eb",
       "Root"
     ]
   ],
