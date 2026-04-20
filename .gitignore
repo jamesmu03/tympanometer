@@ -7,3 +7,10 @@ build/
 # Ignore KiCad backup folders (e.g. audio_and_microphone-backups/)
 *-backups/
 
+# Archive zips shouldn't be checked in
+*.zip
+
+# KiCad lock files and auto-save artifacts
+~*.lck
+#auto_saved_files#
+
